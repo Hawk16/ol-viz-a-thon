@@ -1,0 +1,8 @@
+PopulationCategoryID,PopulationCategoryDescription,Dipslay Order
+1,up to 9900,1
+2,9901 to 18600,2
+3,18601 to 35800,3
+4,35801 to 47800,4
+5,47801 to 64900,5
+6,64901 to 98900,6
+7,98901 to highest,7

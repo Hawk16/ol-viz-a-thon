@@ -1,0 +1,309 @@
+State,ChildCourtName,ParentCourtName
+Alabama,Court of Civil Appeals,Supreme Court
+Alabama,Court of Criminal Appeals,Supreme Court
+Alabama,Circuit,Supreme Court
+Alabama,Circuit,Court of Civil Appeals
+Alabama,Circuit,Court of Criminal Appeals
+Alabama,District,Circuit
+Alabama,Municipal,Circuit
+Alabama,Probate,Circuit
+Alabama,Probate,Court of Civil Appeals
+Alaska,Court of Appeals,Supreme Court
+Alaska,District,Superior
+Alaska,District,Court of Appeals
+Alaska,Superior,Supreme Court
+Alaska,Superior,Court of Appeals
+,,
+,,
+,,
+,,
+Arizona,Court of Appeal Division One,Supreme Court
+Arizona,Justice of the Peace,Superior
+Arizona,Municipal,Superior
+Arizona,Superior,Supreme Court
+Arizona,Superior,Court of Appeal Division One
+Arizona,Tax,Court of Appeal Division One
+Arkansas,Court of Appeals,Supreme Court
+Arkansas,Circuit,Supreme Court
+Arkansas,Circuit,Court of Appeals
+Arkansas,District,Circuit
+California,Courts of Appeal 1st District,Supreme Court
+California,Superior,Courts of Appeal 1st District
+Colorado,Supreme Court,Court of Appeals
+Colorado,County,District
+Colorado,Denver Juvenile,Court of Appeals
+Colorado,Denver Juvenile,Supreme Court
+Colorado,Denver Probate,Supreme Court
+Colorado,District,Supreme Court
+Colorado,District,Court of Appeals
+Colorado,Municipal,County
+Colorado,Municipal,District
+Colorado,Water,Court of Appeals
+Connecticut,Appellate Court,Supreme Court
+Connecticut,Probate,Superior
+Connecticut,Superior,Appellate Court
+Connecticut,Superior,Supreme Court
+Delaware,Aldermans,Court of Common Pleas
+Delaware,Court of Chancery,Supreme Court
+Delaware,Court of Common Pleas,Superior
+Delaware,Family,Superior
+Delaware,Family,Supreme Court
+Delaware,Justice of the Peace,Court of Common Pleas
+Delaware,Superior,Supreme Court
+District of Columbia,Superior,Court of Appeals
+Florida,Fifth District Court of Appeal,Supreme Court
+Florida,Circuit,Supreme Court
+Florida,Circuit,Fifth District Court of Appeal
+Florida,County,Circuit
+Georgia,Court of Appeals,Supreme Court
+Georgia,Civil,Court of Appeals
+Georgia,County Recorder's,Superior
+Georgia,Juvenile,Court of Appeals
+Georgia,Magistrate,Superior
+Georgia,Municipal,Superior
+Georgia,Probate,Superior
+Georgia,Probate,Supreme Court
+Georgia,Probate,Court of Appeals
+Georgia,State,Court of Appeals
+Georgia,Superior,Court of Appeals
+Georgia,Superior,Supreme Court
+Guam,Superior,Supreme Court
+Hawai'i,Intermediate Court of Appeals,Supreme Court
+Hawai'i,Circuit,Intermediate Court of Appeals
+Hawai'i,District,Intermediate Court of Appeals
+Idaho,District,Supreme Court
+Idaho,Magistrates Division,District
+Illinois,Fifth District Court of Appeals,Supreme Court
+Illinois,Circuit,Supreme Court
+Illinois,Circuit,Fifth District Court of Appeals
+Indiana,Court of Appeals,Supreme Court
+Indiana,Tax Court,Supreme Court
+Indiana,Circuit,Court of Appeals
+Indiana,Circuit,Supreme Court
+Indiana,City,Superior
+Indiana,City,Circuit
+Indiana,Probate,Court of Appeals
+Indiana,Probate,Supreme Court
+Indiana,Small Claims of Marion County,Superior
+Indiana,Small Claims of Marion County,Circuit
+Indiana,Superior,Court of Appeals
+Indiana,Superior,Supreme Court
+Indiana,Town,Superior
+Indiana,Town,Circuit
+Iowa,Court of Appeals,Supreme Court
+Iowa,District,Supreme Court
+Kansas,Court of Appeals,Supreme Court
+Kansas,District,Supreme Court
+Kansas,District,Court of Appeals
+Kansas,Municipal,District
+Kentucky,Court of Appeals,Supreme Court
+Kentucky,Circuit,Supreme Court
+Kentucky,Circuit,Court of Appeals
+Kentucky,District,Circuit
+Kentucky,Family,Supreme Court
+Kentucky,Family,Court of Appeals
+Louisiana,Fifth Circuit Courts of Appeal,Supreme Court
+Louisiana,City & Parish,Family
+Louisiana,District,Fifth Circuit Courts of Appeal
+Louisiana,District,Supreme Court
+Louisiana,Family,District
+Louisiana,Family,Fifth Circuit Courts of Appeal
+Louisiana,Justice of the Peace,Family
+Louisiana,Justice of the Peace,City & Parish
+Louisiana,Juvenile,Fifth Circuit Courts of Appeal
+Louisiana,Mayor's,Family
+Maine,District,Supreme Judicial Court
+Maine,District,Superior
+Maine,Probate,Supreme Judicial Court
+Maine,Superior,Supreme Judicial Court
+Maryland,Court of Special Appeals,Court of Appeals
+Maryland,Circuit,Court of Appeals
+Maryland,Circuit,Court of Special Appeals
+Maryland,District,Circuit
+Maryland,Orphans,Court of Special Appeals
+Massachusetts,Appeals Court,Supreme Judicial Court
+Massachusetts,Boston Municipal Court Dept,Appeals Court
+Massachusetts,District Court Dept,Appeals Court
+Massachusetts,Housing Court Dept,Appeals Court
+Massachusetts,Juvenille Court Dept,Appeals Court
+Massachusetts,Land Court Dept,Appeals Court
+Massachusetts,Probate & Family Court Dept,Appeals Court
+Massachusetts,Superior Court Dept,Supreme Judicial Court
+Massachusetts,Superior Court Dept,Appeals Court
+Michigan,Court of Appeals,Supreme Court
+Michigan,Circuit,Court of Appeals
+Michigan,Court of Claims,Court of Appeals
+Michigan,District,Circuit
+Michigan,Municipal,Circuit
+Michigan,Probate,Circuit
+Minnesota,Court of Appeals,Supreme Court
+Minnesota,District,Court of Appeals
+Mississippi,Court of Appeals,Supreme Court
+Mississippi,Chancery,Supreme Court
+Mississippi,Circuit,Supreme Court
+Mississippi,County,Circuit
+Mississippi,County,Supreme Court
+Mississippi,Justice,Chancery
+Mississippi,Justice,County
+Mississippi,Justice,Circuit
+Mississippi,Municipal,Chancery
+Mississippi,Municipal,County
+Mississippi,Municipal,Circuit
+Missouri,Court of Appeals Eastern,Supreme Court
+Missouri,Circuit,Supreme Court
+Missouri,Circuit,Court of Appeals Eastern
+,,Circuit
+Montana,City,District
+Montana,District,Supreme Court
+Montana,Justice's Court,District
+Montana,Municipal,District
+Montana,Water,Supreme Court
+Montana,Worker's Compensation,Supreme Court
+Nebraska,Court of Appeals,Supreme Court
+Nebraska,County,District
+Nebraska,District,Court of Appeals
+Nebraska,Separate Juvenile,Court of Appeals
+Nebraska,Worker's Compensation,Court of Appeals
+Nevada,Court of Appeals,Supreme Court
+Nevada,District,Supreme Court
+Nevada,Justice,District
+Nevada,Municipal,District
+New Hampshire,Circuit,Superior
+New Hampshire,Superior,Supreme Court
+New Jersey,Appellate Division of Superior Court,Supreme Court
+New Jersey,Municipal,Superior
+New Jersey,Superior,Supreme Court
+New Jersey,Superior,Appellate Division of Superior Court
+New Jersey,Tax,Appellate Division of Superior Court
+New Mexico,Court of Appeals,Supreme Court
+New Mexico,Bernalillo County Metropolitan,District
+New Mexico,District,Court of Appeals
+New Mexico,Magistrate,District
+New Mexico,Municipal,District
+New Mexico,Probate,District
+New York,Supreme Ct. Appellate Div. 1st,Court of Appeals
+New York,Supreme Ct. Appellate Term 1st,Court of Appeals
+New York,City,County
+New York,City,Supreme Ct. Appellate Term 1st
+New York,Civil Ct. of the City of NY,Supreme Ct. Appellate Term 1st
+New York,County,Supreme Ct. Appellate Div. 1st
+New York,Court of Claims,Supreme Ct. Appellate Div. 1st
+New York,Criminal Ct of the City of NY,Supreme Ct. Appellate Term 1st
+New York,District,Supreme Ct. Appellate Div. 1st
+New York,District,Supreme Ct. Appellate Term 1st
+New York,Family,Supreme Ct. Appellate Div. 1st
+New York,Supreme,Supreme Ct. Appellate Div. 1st
+New York,Surrogates,Supreme Ct. Appellate Div. 1st
+New York,Town & Village Justice,Supreme Ct. Appellate Term 1st
+North Carolina,Court of Appeals,Supreme Court
+North Carolina,District,Superior
+North Carolina,Superior,Supreme Court
+North Carolina,Superior,Court of Appeals
+North Dakota,Temporary Court of Appeals,Supreme Court
+North Dakota,District,Supreme Court
+North Dakota,Municipal,District
+,,
+,,
+Ohio,Court of Appeals 1st District,Supreme Court
+Ohio,County,Court of Appeals 1st District
+Ohio,Court of Claims,Court of Appeals 1st District
+Ohio,Court of Common Pleas,Court of Appeals 1st District
+Ohio,Mayor's,Municipal
+Ohio,Mayor's,County
+Ohio,Municipal,Court of Appeals 1st District
+Oklahoma,Court of Civil Appeals,Supreme Court
+Oklahoma,District,Supreme Court
+Oklahoma,District,Court of Criminal Appeals
+Oklahoma,Municipal Court Not of Record,District
+Oklahoma,Municipal Criminal Court of Record,Court of Criminal Appeals
+Oklahoma,Tax Review,Supreme Court
+Oregon,Court of Appeals,Supreme Court
+Oregon,Circuit,Supreme Court
+Oregon,Circuit,Court of Appeals
+Oregon,County,Circuit
+Oregon,Justice,Circuit
+Oregon,Municipal,Circuit
+Oregon,Tax,Supreme Court
+Pennsylvania,Commonwealth Court,Supreme Court
+Pennsylvania,Superior Court,Supreme Court
+Pennsylvania,Court of Common Pleas,Supreme Court
+Pennsylvania,Court of Common Pleas,Commonwealth Court
+Pennsylvania,Court of Common Pleas,Superior Court
+Pennsylvania,Magisterial District Judge,Court of Common Pleas
+Pennsylvania,Philadelphia Municipal,Court of Common Pleas
+Puerto Rico,Court of Appeals,Supreme Court
+Puerto Rico,Court of First Instance,Court of Appeals
+Rhode Island,District,Superior
+Rhode Island,District,Supreme Court
+Rhode Island,Family,Supreme Court
+Rhode Island,Municipal,Traffic Tribunal
+Rhode Island,Municipal,District
+Rhode Island,Municipal,Superior
+Rhode Island,Probate,Superior
+Rhode Island,Superior,Supreme Court
+Rhode Island,Traffic Tribunal,District
+Rhode Island,Worker's Compensation,Supreme Court
+Rhode Island,Worker's Compensation,Superior
+South Carolina,Court of Appeals,Supreme Court
+South Carolina,Circuit,Court of Appeals
+South Carolina,Family,Supreme Court
+South Carolina,Family,Court of Appeals
+South Carolina,Magistrate,Circuit
+South Carolina,Municipal,Circuit
+South Carolina,Probate,Circuit
+South Dakota,Circuit,Supreme Court
+South Dakota,Magistrate,Circuit
+Tennessee,Court of Appeals,Supreme Court
+Tennessee,Court of Criminal Appeals,Supreme Court
+Tennessee,Chancery,Court of Appeals
+Tennessee,Circuit,Court of Appeals
+Tennessee,Circuit,Court of Criminal Appeals
+Tennessee,Criminal,Court of Criminal Appeals
+Tennessee,General Sessions,Circuit
+Tennessee,General Sessions,Criminal
+Tennessee,Juvenile,Circuit
+Tennessee,Municipal,Criminal
+Tennessee,Probate,Court of Appeals
+Texas,Court of Appeals 1st District,Court of Criminal Appeals
+Texas,Court of Appeals 1st District,Supreme Court
+Texas,Constitutional County,Court of Appeals 1st District
+Texas,County Court at Law,Court of Appeals 1st District
+Texas,District,Court of Appeals 1st District
+Texas,Justice,District
+Texas,Justice,County Court at Law
+Texas,Justice,Constitutional County
+Texas,Municipal,District
+Texas,Statutory Probate,Court of Appeals 1st District
+Texas,Municipal,County Court at Law
+Texas,Municipal,Constitutional County
+Texas,Statutory Probate,Court of Appeals 1st District
+Utah,Court of Appeals,Supreme Court
+Utah,District,Supreme Court
+Utah,District,Court of Appeals
+Utah,Justice,District
+Utah,Juvenile,Court of Appeals
+Vermont,Superior,Supreme Court
+,,
+,,
+Virginia,Court of Appeals,Supreme Court
+Virginia,Circuit,Supreme Court
+Virginia,Circuit,Court of Appeals
+Virginia,District,Circuit
+Washington,Courts of Appeals Division I,Supreme Court
+Washington,District,Superior
+Washington,Municipal,Superior
+Washington,Superior,Supreme Court
+Washington,Superior,Courts of Appeals Division I
+West Virginia,Circuit,Supreme Court of Appeals
+West Virginia,Family,Circuit
+West Virginia,Magistrate,Circuit
+West Virginia,Magistrate,Family
+West Virginia,Municipal,Circuit
+Wisconsin,Court of Appeals,Supreme Court
+Wisconsin,Circuit,Court of Appeals
+Wisconsin,Municipal,Circuit
+Wyoming,Circuit,District
+Wyoming,District,Supreme Court
+Wyoming,Municipal,District
+Idaho,Court of Appeals,Supreme Court
+,,Circuit

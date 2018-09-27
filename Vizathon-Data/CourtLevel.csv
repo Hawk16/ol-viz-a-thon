@@ -1,0 +1,5 @@
+CourtLevelID,CourtLevelDescription,DisplayOrder
+COLR      ,Court of Last Resource,1
+IAC       ,Intermediate Appellate Court,2
+GJ        ,General Jurisdiction,3
+LJ        ,Limited Jurisdiction,4

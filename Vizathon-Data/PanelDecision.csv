@@ -1,0 +1,5 @@
+PanelDecisionID,PanelDecisionDescription,DisplayOrder
+-99,Missing information,4
+-98,N/A,3
+0,No,2
+1,Yes,1

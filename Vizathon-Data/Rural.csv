@@ -1,0 +1,6 @@
+RuralID,RuralDescription,DisplayOrder
+-99,Missing information,5
+1,Greater than or equal to 50% of the population,1
+2,26-49% of the population,2
+3,16-25% of the population,3
+4,Less than or equal to 15% of the population,4
