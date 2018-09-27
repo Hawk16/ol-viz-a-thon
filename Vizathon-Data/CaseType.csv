@@ -1,0 +1,53 @@
+CaseTypeID,CaseTypeDescription,DisplayOrder
+1,Tort,1
+2,Contract,2
+3,Real Property,3
+4,Probate/Estate,4
+5,Guardianship,5
+6,Landlord/Tenant,6
+8,Mental Health,7
+9,Small Claims,8
+10,Miscellaneous Civil,9
+11,Writ,10
+12,Civil Appeals from Limited Jurisdiction,11
+14,Dissolution,12
+15,Paternity,13
+16,Custody,14
+17,Support,15
+18,Visitation,16
+19,Adoption,17
+20,Misdemeanor,18
+21,Felony,19
+22,Preliminary Hearings,20
+23,Criminal Appeals,21
+24,Status Offenses,22
+25,Juvenile,23
+26,Traffic Infractions,24
+27,Mortgage Foreclosure,25
+28,Ordinance Violations,26
+29,Parking,27
+30,Death Penalty,28
+31,Criminal-Other,29
+32,Family,30
+33,Civil-Other,31
+34,Administrative Agency-Other,32
+37,Certified Questions,33
+38,Advisory Opinion,34
+41,Bar Admission,35
+42,Lawyer Discipline/Eligibility,36
+43,Judicial Discipline/Eligibility,37
+45,Probate/Wills/Interstate,38
+46,Civil Protections Orders,39
+47,Estate,40
+48,Tax,41
+49,Non-Domestic Restraining Orders,42
+52,Administrative Agency Appeals,43
+53,Employment,44
+54,Workers Compensation,45
+55,Revenue (Tax),46
+56,Habeas Corpus Writ Non-Death Penalty,47
+57,Writ Application - Other non Death penalty,48
+58,Bar/Judiciary Proceeding- Other,49
+59,Habeas Corpus Writ-Death Penalty,50
+60,Habeas Corpus/Post Conviction Relief (Non-Death Penalty),51
+61,Habeas Corpus/Post-Conviction Relief (Death Penalty),52

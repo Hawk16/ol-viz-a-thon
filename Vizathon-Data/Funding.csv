@@ -1,0 +1,5 @@
+FundingID,FundingName,FundingDescription,DisplayOrder
+S,State,State funded,1
+M,Mixed,State and local funding,2
+L,Local,Locally funded,3
+U,Missing information,Funding source not provided,4

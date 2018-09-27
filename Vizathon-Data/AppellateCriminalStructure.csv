@@ -1,0 +1,9 @@
+AppellateCriminalStructureID,AppellateCriminalStructureDescription,DisplayOrder
+-99,Missing information,8
+1,COLR Mandatory,1
+2,COLR Discretionary,2
+3,Deflective Structure,3
+4,COLR Discretionary/IAC Mandatory,4
+5,COLR and IAC Discretionary,5
+6,IAC by Subject Matter,6
+7,COLR by Subject Matter,7

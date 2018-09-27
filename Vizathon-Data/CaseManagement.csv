@@ -1,0 +1,5 @@
+CaseManagementID,CaseManagementDescription,DisplayOrder
+-99,Missing information,4
+0,Not all courts on the same case management system,1
+1,All courts on the same case management system,2
+-98,N/A,3
