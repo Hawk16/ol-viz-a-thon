@@ -21,7 +21,7 @@ from bokeh.models.widgets import TableColumn
 from bokeh.models.widgets import RangeSlider
 from bokeh.models.widgets import NumberFormatter
 
-from input_data import InputData
+from lib.input_data import InputData
 
 # ------------------------------------------------------------- #
 #                        Load Input data                        #
