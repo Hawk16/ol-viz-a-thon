@@ -460,4 +460,3 @@ class InputData():
         self.create_names_of_courts_by_state_df()
         self.create_all_court_case_types_df()
         self.create_court_hierarchy_df()
-        print('Input data generated.')
