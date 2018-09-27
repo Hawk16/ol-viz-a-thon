@@ -29,6 +29,7 @@ from input_data import InputData
 
 # Generate CSV input files from Viz-a-Thon CSV files
 InputData().generate_data()
+print('Input data generated.')
 
 # All States (Overview)
 display_cols = [
@@ -38,7 +39,6 @@ display_cols = [
     'CaseloadLow', 'CaseloadHigh',
     'RuralLow', 'RuralHigh',
     'PopulationLow', 'PopulationHigh']
-# df = pd.read_csv('data/all_states_display.csv')
 df = pd.read_csv('viz_a_thon_data_sources/all_states_display.csv')
 all_states_display = df.copy()
 df.rename(columns={
@@ -50,22 +50,18 @@ df = df[display_cols]
 source = ColumnDataSource(df)
 
 # US States and Courts
-# df2 = pd.read_csv('data/us_states_and_courts.csv')
 df2 = pd.read_csv('viz_a_thon_data_sources/us_states_and_courts.csv')
 source2 = ColumnDataSource(df2)
 
 # Names of Courts by State
-# df3 = pd.read_csv('data/names_of_courts_by_state.csv')
 df3 = pd.read_csv('viz_a_thon_data_sources/names_of_courts_by_state.csv')
 source3 = ColumnDataSource(df3)
 
 # Court Case Types
-# df4 = pd.read_csv('data/all_court_case_types.csv')
 df4 = pd.read_csv('viz_a_thon_data_sources/all_court_case_types.csv')
 source4 = ColumnDataSource(df4)
 
 # Court Hieararchy
-# df5 = pd.read_csv('data/court_hierarchy.csv')
 df5 = pd.read_csv('viz_a_thon_data_sources/court_hierarchy.csv')
 source5 = ColumnDataSource(df5)
 
@@ -164,57 +160,12 @@ def update():
         'ChildCourtName': current5.ChildCourtName,
         'ParentCourtName': current5.ParentCourtName}
     
-# ------------------------------------------------------------- #
-#                        HTML Header                            #
-# ------------------------------------------------------------- #
+# -------------------------------------------------------------- #
+#                        HTML Headers                            #
+# -------------------------------------------------------------- #
 
-# TODO: Move HTML to separate file and read in like so:
-# e.g., desc = Div(text=open('<HTML_infile.html>).read(), width=400)
-#
-# HTML header
-HTML = '''
-<style>
-h1 {
-    margin: 1em 0 0 0;
-    color: #263178;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.8em;
-}
-a:link {
-    font-weight: bold;
-    text-decoration: none;
-    color: #0d8ba1;
-}
-a:visited {
-    font-weight: bold;
-    text-decoration: none;
-    color: #1a5952;
-}
-a:hover, a:focus, a:active {
-    text-decoration: underline;
-    color: #9685BA;
-}
-p {
-    font: "Libre Baskerville", sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
-    width: 80%;
-    max-width: 800;
-}
-</style>
-
-<img src='https://www.ncsc.org/~/media/Images/Publications/Seals/J-NCSC_LogoWeb_534_871.ashx' width='200' height='125'></img>
-
-<h1>An Interactive Explorer for State Court Data.</h1>
-
-<p>
-Interact with the widgets on the left to query a subset of state court data.
-</p>
-
-<i>Information courtesy of <a href='http://www.courtstatistics.org'>National Center for State Courts</a>
-</i>
-<br><br>'''
-description = Div(text=HTML, width=600)
+# HTML Header for Dashboard
+description = Div(text=open('html/dashboard_html_header.html').read(), width=400)
 
 # HTML Headers for DataTables
 data_table1_header = Div(text='''<h2 align='left'>Overview</h2>''')
