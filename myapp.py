@@ -21,9 +21,14 @@ from bokeh.models.widgets import TableColumn
 from bokeh.models.widgets import RangeSlider
 from bokeh.models.widgets import NumberFormatter
 
-# -------------------------------------------------------- #
-#                        Input data                        #
-# -------------------------------------------------------- #
+from input_data import InputData
+
+# ------------------------------------------------------------- #
+#                        Load Input data                        #
+# ------------------------------------------------------------- #
+
+# Generate CSV input files from Viz-a-Thon CSV files
+InputData().generate_data()
 
 # All States (Overview)
 display_cols = [
@@ -33,7 +38,8 @@ display_cols = [
     'CaseloadLow', 'CaseloadHigh',
     'RuralLow', 'RuralHigh',
     'PopulationLow', 'PopulationHigh']
-df = pd.read_csv('data/all_states_display.csv')
+# df = pd.read_csv('data/all_states_display.csv')
+df = pd.read_csv('viz_a_thon_data_sources/all_states_display.csv')
 all_states_display = df.copy()
 df.rename(columns={
     'USStateName': 'State', 
@@ -44,19 +50,23 @@ df = df[display_cols]
 source = ColumnDataSource(df)
 
 # US States and Courts
-df2 = pd.read_csv('data/us_states_and_courts.csv')
+# df2 = pd.read_csv('data/us_states_and_courts.csv')
+df2 = pd.read_csv('viz_a_thon_data_sources/us_states_and_courts.csv')
 source2 = ColumnDataSource(df2)
 
 # Names of Courts by State
-df3 = pd.read_csv('data/names_of_courts_by_state.csv')
+# df3 = pd.read_csv('data/names_of_courts_by_state.csv')
+df3 = pd.read_csv('viz_a_thon_data_sources/names_of_courts_by_state.csv')
 source3 = ColumnDataSource(df3)
 
 # Court Case Types
-df4 = pd.read_csv('data/all_court_case_types.csv')
+# df4 = pd.read_csv('data/all_court_case_types.csv')
+df4 = pd.read_csv('viz_a_thon_data_sources/all_court_case_types.csv')
 source4 = ColumnDataSource(df4)
 
 # Court Hieararchy
-df5 = pd.read_csv('data/court_hierarchy.csv')
+# df5 = pd.read_csv('data/court_hierarchy.csv')
+df5 = pd.read_csv('viz_a_thon_data_sources/court_hierarchy.csv')
 source5 = ColumnDataSource(df5)
 
 # ------------------------------------------ #
@@ -416,14 +426,13 @@ download_button_table5.callback = CustomJS(
 
 # DataTable # 1
 columns = [
-        TableColumn(field='State', title='State'),# formatter=DateFormatter()),
+        TableColumn(field='State', title='State'),
         TableColumn(field='PopDensity', title='PopDensity'),
         TableColumn(field='Rural', title='Rural'),
         TableColumn(field='CaseloadSize', title='CaseloadSize'),
         TableColumn(field='TrialStructure', title='TrialStructure'),
         TableColumn(field='CrimProc', title='CrimProc'),
-        TableColumn(field='DeathPen', title='DeathPen')]#,
-        #TableColumn(field='CaseloadSize', title='CaseloadSize')]
+        TableColumn(field='DeathPen', title='DeathPen')]
 data_table = DataTable(
     source=source, 
     columns=columns, 
@@ -598,14 +607,16 @@ pop_densities = popdensity.index.values
 p1 = figure(
     x_range=pop_densities,
     plot_height=250, 
-    plot_width=300, 
+    plot_width=350, 
     title='Population Density', 
     tools=tools, 
     toolbar_location='above')
 p1.vbar(
     x=pop_densities,
     top=popdensity.values, 
-    width=0.8)
+    width=0.8,
+    color='firebrick', 
+    alpha=0.5)
 p1.xaxis.axis_label = 'Population Density'
 p1.yaxis.axis_label = 'Number of States'
 p1.xgrid.grid_line_color = 'white'
@@ -630,14 +641,16 @@ rural_categories = rural.index.values
 p3 = figure(
     x_range=rural_categories,
     plot_height=250, 
-    plot_width=300,
+    plot_width=350,
     title='Rural %', 
     tools=tools,
     toolbar_location='above')
 p3.vbar(
     x=rural_categories,
     top=rural.values, 
-    width=0.8)
+    width=0.8,
+    color='firebrick', 
+    alpha=0.5)
 p3.xaxis.axis_label = '% of State Population that is Rural'
 p3.xgrid.grid_line_color = 'white'
 p3.xaxis.major_label_orientation = math.pi/6
@@ -663,14 +676,16 @@ caseloadsize_categories = caseloadsize.index.values
 p4 = figure(
     x_range=caseloadsize_categories,
     plot_height=250, 
-    plot_width=300, 
+    plot_width=350, 
     title='Caseload Size', 
     tools=tools, 
     toolbar_location='above')
 p4.vbar(
     x=caseloadsize_categories,
     top=caseloadsize.values, 
-    width=0.8)
+    width=0.8,
+    color='firebrick', 
+    alpha=0.5)
 p4.xaxis.axis_label = 'Caseload Size'
 p4.xgrid.grid_line_color = 'white'
 p4.xaxis.major_label_orientation = math.pi/6
@@ -683,14 +698,16 @@ death_penalty_categories = death_penalty.index.values
 p5 = figure(
     x_range=death_penalty_categories,
     plot_height=250, 
-    plot_width=300,
+    plot_width=350,
     title='Death Penalty', 
     tools=tools, 
     toolbar_location='above')
 p5.vbar(
     x=death_penalty_categories,
     top=death_penalty.values, 
-    width=0.8)
+    width=0.8, 
+    color='firebrick', 
+    alpha=0.5)
 p5.xaxis.axis_label = 'Death Penalty'
 p5.xgrid.grid_line_color = 'white'
 

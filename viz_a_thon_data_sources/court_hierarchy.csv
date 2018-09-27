@@ -1,0 +1,309 @@
+AppealProcessID,ChildCourtID,ParentCourtID,State,ChildCourtName,ParentCourtName
+1,2,1,Alabama,Court of Civil Appeals,Supreme Court
+2,3,1,Alabama,Court of Criminal Appeals,Supreme Court
+3,106,1,Alabama,Circuit,Supreme Court
+4,106,2,Alabama,Circuit,Court of Civil Appeals
+5,106,3,Alabama,Circuit,Court of Criminal Appeals
+6,107,106,Alabama,District,Circuit
+7,108,106,Alabama,Municipal,Circuit
+8,109,106,Alabama,Probate,Circuit
+9,109,2,Alabama,Probate,Court of Civil Appeals
+10,5,4,Alaska,Court of Appeals,Supreme Court
+11,110,111,Alaska,District,Superior
+12,110,5,Alaska,District,Court of Appeals
+13,111,4,Alaska,Superior,Supreme Court
+14,111,5,Alaska,Superior,Court of Appeals
+15,6,-98,,,
+16,112,-98,,,
+17,113,-98,,,
+18,114,-98,,,
+19,8,7,Arizona,Court of Appeal Division One,Supreme Court
+20,115,117,Arizona,Justice of the Peace,Superior
+21,116,117,Arizona,Municipal,Superior
+22,117,7,Arizona,Superior,Supreme Court
+23,117,8,Arizona,Superior,Court of Appeal Division One
+24,118,8,Arizona,Tax,Court of Appeal Division One
+25,10,9,Arkansas,Court of Appeals,Supreme Court
+26,119,9,Arkansas,Circuit,Supreme Court
+27,119,10,Arkansas,Circuit,Court of Appeals
+28,120,119,Arkansas,District,Circuit
+29,12,11,California,Courts of Appeal 1st District,Supreme Court
+30,121,12,California,Superior,Courts of Appeal 1st District
+31,14,13,Colorado,Supreme Court,Court of Appeals
+32,122,125,Colorado,County,District
+33,123,13,Colorado,Denver Juvenile,Court of Appeals
+34,123,14,Colorado,Denver Juvenile,Supreme Court
+35,124,14,Colorado,Denver Probate,Supreme Court
+36,125,14,Colorado,District,Supreme Court
+37,125,13,Colorado,District,Court of Appeals
+38,126,122,Colorado,Municipal,County
+39,126,125,Colorado,Municipal,District
+40,127,13,Colorado,Water,Court of Appeals
+41,16,15,Connecticut,Appellate Court,Supreme Court
+42,128,129,Connecticut,Probate,Superior
+43,129,16,Connecticut,Superior,Appellate Court
+44,129,15,Connecticut,Superior,Supreme Court
+45,130,132,Delaware,Aldermans,Court of Common Pleas
+46,131,17,Delaware,Court of Chancery,Supreme Court
+47,132,135,Delaware,Court of Common Pleas,Superior
+48,133,135,Delaware,Family,Superior
+49,133,17,Delaware,Family,Supreme Court
+50,134,132,Delaware,Justice of the Peace,Court of Common Pleas
+51,135,17,Delaware,Superior,Supreme Court
+52,136,18,District of Columbia,Superior,Court of Appeals
+53,20,19,Florida,Fifth District Court of Appeal,Supreme Court
+54,137,19,Florida,Circuit,Supreme Court
+55,137,20,Florida,Circuit,Fifth District Court of Appeal
+56,138,137,Florida,County,Circuit
+57,22,21,Georgia,Court of Appeals,Supreme Court
+58,139,22,Georgia,Civil,Court of Appeals
+59,140,146,Georgia,County Recorder's,Superior
+60,141,22,Georgia,Juvenile,Court of Appeals
+61,142,146,Georgia,Magistrate,Superior
+62,143,146,Georgia,Municipal,Superior
+63,144,146,Georgia,Probate,Superior
+64,144,21,Georgia,Probate,Supreme Court
+65,144,22,Georgia,Probate,Court of Appeals
+66,145,22,Georgia,State,Court of Appeals
+67,146,22,Georgia,Superior,Court of Appeals
+68,146,21,Georgia,Superior,Supreme Court
+69,147,23,Guam,Superior,Supreme Court
+70,25,24,Hawai'i,Intermediate Court of Appeals,Supreme Court
+71,148,25,Hawai'i,Circuit,Intermediate Court of Appeals
+72,149,25,Hawai'i,District,Intermediate Court of Appeals
+73,150,26,Idaho,District,Supreme Court
+74,151,150,Idaho,Magistrates Division,District
+75,29,28,Illinois,Fifth District Court of Appeals,Supreme Court
+76,152,28,Illinois,Circuit,Supreme Court
+77,152,29,Illinois,Circuit,Fifth District Court of Appeals
+78,31,30,Indiana,Court of Appeals,Supreme Court
+79,32,30,Indiana,Tax Court,Supreme Court
+80,153,31,Indiana,Circuit,Court of Appeals
+81,153,30,Indiana,Circuit,Supreme Court
+82,154,157,Indiana,City,Superior
+83,154,153,Indiana,City,Circuit
+84,155,31,Indiana,Probate,Court of Appeals
+85,155,30,Indiana,Probate,Supreme Court
+86,156,157,Indiana,Small Claims of Marion County,Superior
+87,156,153,Indiana,Small Claims of Marion County,Circuit
+88,157,31,Indiana,Superior,Court of Appeals
+89,157,30,Indiana,Superior,Supreme Court
+90,158,157,Indiana,Town,Superior
+91,158,153,Indiana,Town,Circuit
+92,34,33,Iowa,Court of Appeals,Supreme Court
+93,159,33,Iowa,District,Supreme Court
+94,36,35,Kansas,Court of Appeals,Supreme Court
+95,160,35,Kansas,District,Supreme Court
+96,160,36,Kansas,District,Court of Appeals
+97,161,160,Kansas,Municipal,District
+98,38,37,Kentucky,Court of Appeals,Supreme Court
+99,162,37,Kentucky,Circuit,Supreme Court
+100,162,38,Kentucky,Circuit,Court of Appeals
+101,163,162,Kentucky,District,Circuit
+102,164,37,Kentucky,Family,Supreme Court
+103,164,38,Kentucky,Family,Court of Appeals
+104,40,39,Louisiana,Fifth Circuit Courts of Appeal,Supreme Court
+105,165,167,Louisiana,City & Parish,Family
+106,166,40,Louisiana,District,Fifth Circuit Courts of Appeal
+107,166,39,Louisiana,District,Supreme Court
+108,167,166,Louisiana,Family,District
+109,167,40,Louisiana,Family,Fifth Circuit Courts of Appeal
+110,168,167,Louisiana,Justice of the Peace,Family
+111,168,165,Louisiana,Justice of the Peace,City & Parish
+112,169,40,Louisiana,Juvenile,Fifth Circuit Courts of Appeal
+113,170,167,Louisiana,Mayor's,Family
+114,171,41,Maine,District,Supreme Judicial Court
+115,171,173,Maine,District,Superior
+116,172,41,Maine,Probate,Supreme Judicial Court
+117,173,41,Maine,Superior,Supreme Judicial Court
+118,43,42,Maryland,Court of Special Appeals,Court of Appeals
+119,174,42,Maryland,Circuit,Court of Appeals
+120,174,43,Maryland,Circuit,Court of Special Appeals
+121,175,174,Maryland,District,Circuit
+122,176,43,Maryland,Orphans,Court of Special Appeals
+123,45,44,Massachusetts,Appeals Court,Supreme Judicial Court
+124,177,45,Massachusetts,Boston Municipal Court Dept,Appeals Court
+125,178,45,Massachusetts,District Court Dept,Appeals Court
+126,179,45,Massachusetts,Housing Court Dept,Appeals Court
+127,180,45,Massachusetts,Juvenille Court Dept,Appeals Court
+128,181,45,Massachusetts,Land Court Dept,Appeals Court
+129,182,45,Massachusetts,Probate & Family Court Dept,Appeals Court
+130,183,44,Massachusetts,Superior Court Dept,Supreme Judicial Court
+131,183,45,Massachusetts,Superior Court Dept,Appeals Court
+132,47,46,Michigan,Court of Appeals,Supreme Court
+133,184,47,Michigan,Circuit,Court of Appeals
+134,185,47,Michigan,Court of Claims,Court of Appeals
+135,186,184,Michigan,District,Circuit
+136,187,184,Michigan,Municipal,Circuit
+137,188,184,Michigan,Probate,Circuit
+138,49,48,Minnesota,Court of Appeals,Supreme Court
+139,189,49,Minnesota,District,Court of Appeals
+140,51,50,Mississippi,Court of Appeals,Supreme Court
+141,190,50,Mississippi,Chancery,Supreme Court
+142,191,50,Mississippi,Circuit,Supreme Court
+143,192,191,Mississippi,County,Circuit
+144,192,50,Mississippi,County,Supreme Court
+145,193,190,Mississippi,Justice,Chancery
+146,193,192,Mississippi,Justice,County
+147,193,191,Mississippi,Justice,Circuit
+148,194,190,Mississippi,Municipal,Chancery
+149,194,192,Mississippi,Municipal,County
+150,194,191,Mississippi,Municipal,Circuit
+151,53,52,Missouri,Court of Appeals Eastern,Supreme Court
+152,195,52,Missouri,Circuit,Supreme Court
+153,195,53,Missouri,Circuit,Court of Appeals Eastern
+154,196,195,,,Circuit
+155,197,198,Montana,City,District
+156,198,54,Montana,District,Supreme Court
+157,199,198,Montana,Justice's Court,District
+158,200,198,Montana,Municipal,District
+159,201,54,Montana,Water,Supreme Court
+160,202,54,Montana,Worker's Compensation,Supreme Court
+161,56,55,Nebraska,Court of Appeals,Supreme Court
+162,203,204,Nebraska,County,District
+163,204,56,Nebraska,District,Court of Appeals
+164,205,56,Nebraska,Separate Juvenile,Court of Appeals
+165,206,56,Nebraska,Worker's Compensation,Court of Appeals
+166,58,57,Nevada,Court of Appeals,Supreme Court
+167,207,57,Nevada,District,Supreme Court
+168,208,207,Nevada,Justice,District
+169,209,207,Nevada,Municipal,District
+170,210,211,New Hampshire,Circuit,Superior
+171,211,59,New Hampshire,Superior,Supreme Court
+172,61,60,New Jersey,Appellate Division of Superior Court,Supreme Court
+173,212,213,New Jersey,Municipal,Superior
+174,213,60,New Jersey,Superior,Supreme Court
+175,213,61,New Jersey,Superior,Appellate Division of Superior Court
+176,214,61,New Jersey,Tax,Appellate Division of Superior Court
+177,63,62,New Mexico,Court of Appeals,Supreme Court
+178,215,216,New Mexico,Bernalillo County Metropolitan,District
+179,216,63,New Mexico,District,Court of Appeals
+180,217,216,New Mexico,Magistrate,District
+181,218,216,New Mexico,Municipal,District
+182,219,216,New Mexico,Probate,District
+183,65,64,New York,Supreme Ct. Appellate Div. 1st,Court of Appeals
+184,66,64,New York,Supreme Ct. Appellate Term 1st,Court of Appeals
+185,220,222,New York,City,County
+186,220,66,New York,City,Supreme Ct. Appellate Term 1st
+187,221,66,New York,Civil Ct. of the City of NY,Supreme Ct. Appellate Term 1st
+188,222,65,New York,County,Supreme Ct. Appellate Div. 1st
+189,223,65,New York,Court of Claims,Supreme Ct. Appellate Div. 1st
+190,224,66,New York,Criminal Ct of the City of NY,Supreme Ct. Appellate Term 1st
+191,225,65,New York,District,Supreme Ct. Appellate Div. 1st
+192,225,66,New York,District,Supreme Ct. Appellate Term 1st
+193,226,65,New York,Family,Supreme Ct. Appellate Div. 1st
+194,227,65,New York,Supreme,Supreme Ct. Appellate Div. 1st
+195,228,65,New York,Surrogates,Supreme Ct. Appellate Div. 1st
+196,229,66,New York,Town & Village Justice,Supreme Ct. Appellate Term 1st
+197,68,67,North Carolina,Court of Appeals,Supreme Court
+198,230,231,North Carolina,District,Superior
+199,231,67,North Carolina,Superior,Supreme Court
+200,231,68,North Carolina,Superior,Court of Appeals
+201,70,69,North Dakota,Temporary Court of Appeals,Supreme Court
+202,232,69,North Dakota,District,Supreme Court
+203,233,232,North Dakota,Municipal,District
+204,71,-98,,,
+205,234,-98,,,
+206,73,72,Ohio,Court of Appeals 1st District,Supreme Court
+207,235,73,Ohio,County,Court of Appeals 1st District
+208,236,73,Ohio,Court of Claims,Court of Appeals 1st District
+209,237,73,Ohio,Court of Common Pleas,Court of Appeals 1st District
+210,238,239,Ohio,Mayor's,Municipal
+211,238,235,Ohio,Mayor's,County
+212,239,73,Ohio,Municipal,Court of Appeals 1st District
+213,76,75,Oklahoma,Court of Civil Appeals,Supreme Court
+214,240,75,Oklahoma,District,Supreme Court
+215,240,74,Oklahoma,District,Court of Criminal Appeals
+216,241,240,Oklahoma,Municipal Court Not of Record,District
+217,242,74,Oklahoma,Municipal Criminal Court of Record,Court of Criminal Appeals
+218,243,75,Oklahoma,Tax Review,Supreme Court
+220,78,77,Oregon,Court of Appeals,Supreme Court
+221,245,77,Oregon,Circuit,Supreme Court
+222,245,78,Oregon,Circuit,Court of Appeals
+223,246,245,Oregon,County,Circuit
+224,247,245,Oregon,Justice,Circuit
+225,248,245,Oregon,Municipal,Circuit
+226,249,77,Oregon,Tax,Supreme Court
+227,80,79,Pennsylvania,Commonwealth Court,Supreme Court
+228,81,79,Pennsylvania,Superior Court,Supreme Court
+229,250,79,Pennsylvania,Court of Common Pleas,Supreme Court
+230,250,80,Pennsylvania,Court of Common Pleas,Commonwealth Court
+231,250,81,Pennsylvania,Court of Common Pleas,Superior Court
+232,251,250,Pennsylvania,Magisterial District Judge,Court of Common Pleas
+233,252,250,Pennsylvania,Philadelphia Municipal,Court of Common Pleas
+234,83,82,Puerto Rico,Court of Appeals,Supreme Court
+235,253,83,Puerto Rico,Court of First Instance,Court of Appeals
+236,254,258,Rhode Island,District,Superior
+237,254,84,Rhode Island,District,Supreme Court
+238,255,84,Rhode Island,Family,Supreme Court
+239,256,259,Rhode Island,Municipal,Traffic Tribunal
+240,256,254,Rhode Island,Municipal,District
+241,256,258,Rhode Island,Municipal,Superior
+242,257,258,Rhode Island,Probate,Superior
+243,258,84,Rhode Island,Superior,Supreme Court
+244,259,254,Rhode Island,Traffic Tribunal,District
+245,260,84,Rhode Island,Worker's Compensation,Supreme Court
+246,260,258,Rhode Island,Worker's Compensation,Superior
+247,86,85,South Carolina,Court of Appeals,Supreme Court
+248,261,86,South Carolina,Circuit,Court of Appeals
+249,262,85,South Carolina,Family,Supreme Court
+250,262,86,South Carolina,Family,Court of Appeals
+251,263,261,South Carolina,Magistrate,Circuit
+252,264,261,South Carolina,Municipal,Circuit
+253,265,261,South Carolina,Probate,Circuit
+254,266,87,South Dakota,Circuit,Supreme Court
+255,267,266,South Dakota,Magistrate,Circuit
+256,89,88,Tennessee,Court of Appeals,Supreme Court
+257,90,88,Tennessee,Court of Criminal Appeals,Supreme Court
+258,268,89,Tennessee,Chancery,Court of Appeals
+259,269,89,Tennessee,Circuit,Court of Appeals
+260,269,90,Tennessee,Circuit,Court of Criminal Appeals
+261,270,90,Tennessee,Criminal,Court of Criminal Appeals
+262,271,269,Tennessee,General Sessions,Circuit
+263,271,270,Tennessee,General Sessions,Criminal
+264,272,269,Tennessee,Juvenile,Circuit
+265,273,270,Tennessee,Municipal,Criminal
+266,274,89,Tennessee,Probate,Court of Appeals
+267,93,91,Texas,Court of Appeals 1st District,Court of Criminal Appeals
+268,93,92,Texas,Court of Appeals 1st District,Supreme Court
+269,275,93,Texas,Constitutional County,Court of Appeals 1st District
+270,276,93,Texas,County Court at Law,Court of Appeals 1st District
+271,277,93,Texas,District,Court of Appeals 1st District
+273,278,277,Texas,Justice,District
+275,278,276,Texas,Justice,County Court at Law
+276,278,275,Texas,Justice,Constitutional County
+277,279,277,Texas,Municipal,District
+278,280,93,Texas,Statutory Probate,Court of Appeals 1st District
+279,279,276,Texas,Municipal,County Court at Law
+280,279,275,Texas,Municipal,Constitutional County
+281,280,93,Texas,Statutory Probate,Court of Appeals 1st District
+282,95,94,Utah,Court of Appeals,Supreme Court
+283,281,94,Utah,District,Supreme Court
+284,281,95,Utah,District,Court of Appeals
+285,282,281,Utah,Justice,District
+286,283,95,Utah,Juvenile,Court of Appeals
+287,284,96,Vermont,Superior,Supreme Court
+288,97,-98,,,
+289,285,-98,,,
+290,99,98,Virginia,Court of Appeals,Supreme Court
+291,286,98,Virginia,Circuit,Supreme Court
+292,286,99,Virginia,Circuit,Court of Appeals
+293,287,286,Virginia,District,Circuit
+294,101,100,Washington,Courts of Appeals Division I,Supreme Court
+295,288,290,Washington,District,Superior
+296,289,290,Washington,Municipal,Superior
+297,290,100,Washington,Superior,Supreme Court
+298,290,101,Washington,Superior,Courts of Appeals Division I
+299,291,102,West Virginia,Circuit,Supreme Court of Appeals
+300,292,291,West Virginia,Family,Circuit
+301,293,291,West Virginia,Magistrate,Circuit
+302,293,292,West Virginia,Magistrate,Family
+303,294,291,West Virginia,Municipal,Circuit
+304,104,103,Wisconsin,Court of Appeals,Supreme Court
+305,295,104,Wisconsin,Circuit,Court of Appeals
+306,296,295,Wisconsin,Municipal,Circuit
+307,297,298,Wyoming,Circuit,District
+308,298,105,Wyoming,District,Supreme Court
+309,299,298,Wyoming,Municipal,District
+310,27,26,Idaho,Court of Appeals,Supreme Court
+311,300,119,,,Circuit

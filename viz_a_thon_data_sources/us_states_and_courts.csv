@@ -1,0 +1,290 @@
+USStateCourtID,CourtID,USStateID,CourtName,CourtLevelID,CSPAggID,FundingID,AppealFromAdminAgency,Notes,Link,DisplayOrder,State,FundingDescription,CourtLevelDescription
+1,1,1,Supreme Court,COLR      ,COLR      ,S,No,Assigns cases to the Court of Civil Appeals.,http://judicial.alabama.gov/supreme.cfm,1,Alabama,State funded,Court of Last Resort
+2,2,1,Court of Civil Appeals,IAC       ,IAC       ,S,No,,http://judicial.alabama.gov/civil.cfm,2,Alabama,State funded,Intermediate Appellate Court
+3,3,1,Court of Criminal Appeals,IAC       ,IAC       ,S,No,,http://judicial.alabama.gov/criminal.cfm,3,Alabama,State funded,Intermediate Appellate Court
+4,106,1,Circuit,GJ        ,GJ        ,M,Yes,Jury trials.,http://judicial.alabama.gov/,4,Alabama,State and local funding,General Jurisdiction
+5,107,1,District,LJ        ,LJ        ,M,No,No jury trials.,-99,5,Alabama,State and local funding,Limited Jurisdiction
+6,108,1,Municipal,LJ        ,LJ        ,L,No,No jury trials.,-99,6,Alabama,Locally funded,Limited Jurisdiction
+7,109,1,Probate,LJ        ,GJ        ,L,No,No jury trials.,-99,7,Alabama,Locally funded,Limited Jurisdiction
+8,4,2,Supreme Court,COLR      ,COLR      ,S,No,,http://courts.alaska.gov/appellate/appcts.htm,8,Alaska,State funded,Court of Last Resort
+9,5,2,Court of Appeals,IAC       ,IAC       ,S,No,,http://courts.alaska.gov/appellate/appcts.htm,9,Alaska,State funded,Intermediate Appellate Court
+10,110,2,District,LJ        ,LJ        ,S,Yes,Jury trials in most cases.,http://www.courts.alaska.gov/trialcourts/index.htm#recs,10,Alaska,State funded,Limited Jurisdiction
+11,111,2,Superior,GJ        ,GJ        ,S,No,Jury trials in most cases.,http://www.courts.alaska.gov/trialcourts/index.htm#recs,11,Alaska,State funded,General Jurisdiction
+12,7,3,Supreme Court,COLR      ,COLR      ,S,No,,http://www.azcourts.gov/AZ-Supreme-Court,12,Arizona,State funded,Court of Last Resort
+13,8,3,Court of Appeal,IAC       ,IAC       ,S,Yes,,http://www.azcourts.gov/AZ-Courts/Court-of-Appeals,13,Arizona,State funded,Intermediate Appellate Court
+14,115,3,Justice of the Peace,LJ        ,LJ        ,M,No,Jury trials except in small claims.,http://justicecourts.maricopa.gov/Judges/index.aspx/,14,Arizona,State and local funding,Limited Jurisdiction
+15,116,3,Municipal,LJ        ,LJ        ,M,No,Jury trials.,http://www.azcourts.gov/AZ-Courts/City-Courts,15,Arizona,State and local funding,Limited Jurisdiction
+16,117,3,Superior,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.azcourts.gov/AZ-Courts/Superior-Court,16,Arizona,State and local funding,General Jurisdiction
+17,118,3,Tax,GJ        ,GJ        ,M,No,No jury trials.,http://www.superiorcourt.maricopa.gov/SuperiorCourt/TaxCourt/index.asp,17,Arizona,State and local funding,General Jurisdiction
+18,9,4,Supreme Court,COLR      ,COLR      ,S,No,May reassign cases from Court of Appeals.,https://courts.arkansas.gov/courts/supreme-court,18,Arkansas,State funded,Court of Last Resort
+19,10,4,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://courts.arkansas.gov/courts/court-of-appeals,19,Arkansas,State funded,Intermediate Appellate Court
+20,119,4,Circuit,GJ        ,GJ        ,M,No,Jury trials.,https://courts.arkansas.gov/courts/circuit-courts,20,Arkansas,State and local funding,General Jurisdiction
+21,120,4,District,LJ        ,LJ        ,L,No,No jury trials.,https://courts.arkansas.gov/courts/district-courts,21,Arkansas,Locally funded,Limited Jurisdiction
+22,11,5,Supreme Court,COLR      ,COLR      ,S,Yes,,http://www.courts.ca.gov/supremecourt.htm,22,California,State funded,Court of Last Resort
+23,12,5,Court of Appeal,IAC       ,IAC       ,S,Yes,,http://www.courts.ca.gov/courtsofappeal.htm,23,California,State funded,Intermediate Appellate Court
+24,121,5,Superior,GJ        ,GJ        ,S,Yes,"Jury trials except in appeals, domestic relations, and juvenile cases.",http://www.courts.ca.gov/superiorcourts.htm,24,California,State funded,General Jurisdiction
+25,13,6,Supreme Court,COLR      ,COLR      ,S,Yes,,https://www.courts.state.co.us/Courts/Supreme_Court/Index.cfm,25,Colorado,State funded,Court of Last Resort
+26,14,6,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://www.courts.state.co.us/Courts/Court_Of_Appeals/Index.cfm,26,Colorado,State funded,Intermediate Appellate Court
+27,122,6,County,LJ        ,LJ        ,M,No,Jury trials except in small claims and appeals.,https://www.courts.state.co.us/Courts/County/Choose.cfm,27,Colorado,State and local funding,Limited Jurisdiction
+28,123,6,Denver Juvenile,GJ        ,GJ        ,S,No,Jury trials.,https://www.courts.state.co.us/Courts/Denver_Juvenile/Index.cfm,28,Colorado,State funded,General Jurisdiction
+29,124,6,Denver Probate,GJ        ,GJ        ,S,No,Jury trials.,https://www.courts.state.co.us/Courts/Denver_Probate/Index.cfm,29,Colorado,State funded,General Jurisdiction
+30,125,6,District,GJ        ,GJ        ,S,Yes,Jury trials except in appeals.,https://www.courts.state.co.us/Courts/District/Choose.cfm,30,Colorado,State funded,General Jurisdiction
+31,126,6,Municipal,LJ        ,LJ        ,L,No,Jury trials.,-99,31,Colorado,Locally funded,Limited Jurisdiction
+32,127,6,Water,GJ        ,GJ        ,S,No,District court judges serve jury trials.,https://www.courts.state.co.us/Courts/Water/Index.cfm,32,Colorado,State funded,General Jurisdiction
+33,15,7,Supreme Court,COLR      ,COLR      ,S,No,,https://www.jud.state.ct.us/external/supapp/Default.htm,33,Connecticut,State funded,Court of Last Resort
+34,16,7,Appellate Court,IAC       ,IAC       ,S,Yes,,https://www.jud.state.ct.us/external/supapp/appellate.htm,34,Connecticut,State funded,Intermediate Appellate Court
+35,128,7,Probate,LJ        ,LJ        ,L,No,No jury trials.,http://www.ctprobate.gov/Pages/Welcome.aspx,35,Connecticut,Locally funded,Limited Jurisdiction
+36,129,7,Superior,GJ        ,GJ        ,S,Yes,Jury trials in most cases.,https://www.jud.state.ct.us/external/super/default.htm,36,Connecticut,State funded,General Jurisdiction
+37,17,8,Supreme Court,COLR      ,COLR      ,S,No,,https://courts.delaware.gov/supreme/,37,Delaware,State funded,Court of Last Resort
+38,130,8,Aldermans,LJ        ,LJ        ,L,No,No jury trials. Jurisdiction varies by localities.,-99,38,Delaware,Locally funded,Limited Jurisdiction
+39,131,8,Court of Chancery,GJ        ,GJ        ,S,No,No jury trials.,https://courts.delaware.gov/chancery/,39,Delaware,State funded,General Jurisdiction
+40,132,8,Court of Common Pleas,LJ        ,LJ        ,S,Yes,Jury trials in some cases.,https://courts.delaware.gov/commonpleas/,40,Delaware,State funded,Limited Jurisdiction
+41,133,8,Family,LJ        ,GJ        ,S,No,No jury trials.,https://courts.delaware.gov/family/,41,Delaware,State funded,Limited Jurisdiction
+42,134,8,Justice of the Peace,LJ        ,LJ        ,S,No,Jury trials in Landlord/Tenant.,https://courts.delaware.gov/jpcourt/,42,Delaware,State funded,Limited Jurisdiction
+43,135,8,Superior,GJ        ,GJ        ,S,Yes,Jury trials except in appeals.,https://courts.delaware.gov/superior/,43,Delaware,State funded,General Jurisdiction
+44,18,9,Court of Appeals,COLR      ,COLR      ,S,Yes,,https://www.dccourts.gov/internet/appellate/main.jsf,44,District of Columbia,State funded,Court of Last Resort
+45,136,9,Superior,GJ        ,GJ        ,S,Yes,Jury trials.,https://www.dccourts.gov/internet/superior/main.jsf,45,District of Columbia,State funded,General Jurisdiction
+46,19,10,Supreme Court,COLR      ,COLR      ,S,Yes,,http://www.floridasupremecourt.org/,46,Florida,State funded,Court of Last Resort
+47,20,10,District Court of Appeal,IAC       ,IAC       ,S,Yes,,http://www.flcourts.org/florida-courts/district-court-appeal.stml,47,Florida,State funded,Intermediate Appellate Court
+48,137,10,Circuit,GJ        ,GJ        ,M,No,Jury trials except in appeals.,http://www.flcourts.org/florida-courts/trial-courts-circuit.stml,48,Florida,State and local funding,General Jurisdiction
+49,138,10,County,LJ        ,LJ        ,M,No,Jury trials.,http://www.flcourts.org/florida-courts/trial-courts-county.stml,49,Florida,State and local funding,Limited Jurisdiction
+50,21,11,Supreme Court,COLR      ,COLR      ,S,No,,https://www.gasupreme.us/,50,Georgia,State funded,Court of Last Resort
+51,22,11,Court of Appeals,IAC       ,IAC       ,S,No,,http://www.gaappeals.us/,51,Georgia,State funded,Intermediate Appellate Court
+52,139,11,Civil,LJ        ,LJ        ,L,No,,http://www.georgiacourts.org/courts/civil/bibb/index.html,52,Georgia,Locally funded,Limited Jurisdiction
+53,140,11,County Recorder's,LJ        ,LJ        ,L,No,No jury trials.,http://www.ncsconline.org/D_KIS/CourtWebSites/CtWeb_GAlimited.htm,53,Georgia,Locally funded,Limited Jurisdiction
+54,141,11,Juvenile,LJ        ,GJ        ,M,No,No jury trials.,-99,54,Georgia,State and local funding,Limited Jurisdiction
+55,142,11,Magistrate,LJ        ,LJ        ,L,No,No jury trials.,http://www.georgiamagistratecouncil.com/,55,Georgia,Locally funded,Limited Jurisdiction
+56,143,11,Municipal,LJ        ,LJ        ,L,No,No jury trials.,http://municipal.georgiacourts.gov/,56,Georgia,Locally funded,Limited Jurisdiction
+57,144,11,Probate,LJ        ,LJ        ,L,No,Jury trials only in counties with populations greater than 96,-99,57,Georgia,Locally funded,Limited Jurisdiction
+58,145,11,State,LJ        ,LJ        ,L,No,Jury trials.,-99,58,Georgia,Locally funded,Limited Jurisdiction
+59,146,11,Superior,GJ        ,GJ        ,M,Yes,Jury trials.,https://georgiasuperiorcourts.org/,59,Georgia,State and local funding,General Jurisdiction
+60,23,12,Supreme Court,COLR      ,COLR      ,U,Yes,,-99,60,Guam,Funding source not provided,Court of Last Resort
+61,147,12,Superior,GJ        ,GJ        ,U,Yes,,-99,61,Guam,Funding source not provided,General Jurisdiction
+62,24,13,Supreme Court,COLR      ,COLR      ,S,No,,http://www.courts.state.hi.us/courts/supreme/hawaii_supreme_court,62,Hawai'i,State funded,Court of Last Resort
+63,25,13,Intermediate Court of Appeals,IAC       ,IAC       ,S,Yes,,http://www.courts.state.hi.us/courts/appeals/intermediate_court_of_appeals,63,Hawai'i,State funded,Intermediate Appellate Court
+64,148,13,Circuit,GJ        ,GJ        ,S,Yes,Jury trials. The Family Courts are a division of the Circuit Courts and have exclusive jurisdiction over domestic relations and juvenile cases.,-99,64,Hawai'i,State funded,General Jurisdiction
+65,149,13,District,LJ        ,LJ        ,S,No,No jury trials.,http://www.courts.state.hi.us/wp-content/themes/hic_state_template_child-Judiciary/redirect_notice.php?redirect=http%3A%2F%2Fwww.courts.state.hi.us%2Fcourts%2Fdistrict%2Fdistrict_courts,65,Hawai'i,State funded,Limited Jurisdiction
+66,26,14,Supreme Court,COLR      ,COLR      ,S,Yes,,https://www.isc.idaho.gov/problem-solving/burdick,66,Idaho,State funded,Court of Last Resort
+67,27,14,Court of Appeals,IAC       ,IAC       ,S,No,,-99,67,Idaho,State funded,Intermediate Appellate Court
+68,150,14,District,GJ        ,GJ        ,M,Yes,Jury trials.,https://www.isc.idaho.gov/district-courts,68,Idaho,State and local funding,General Jurisdiction
+69,151,14,Magistrates Division,LJ        ,LJ        ,M,No,Jury trials. The Magistrates Division of the District Court functions as a limited jurisdiction court.,-99,69,Idaho,State and local funding,Limited Jurisdiction
+70,28,15,Supreme Court,COLR      ,COLR      ,S,No,,http://www.illinoiscourts.gov/SupremeCourt/default.asp,70,Illinois,State funded,Court of Last Resort
+71,29,15,Appellate Court,IAC       ,IAC       ,S,Yes,,http://www.illinoiscourts.gov/AppellateCourt/default.asp,71,Illinois,State funded,Intermediate Appellate Court
+72,152,15,Circuit,GJ        ,GJ        ,M,Yes,Jury trials permissible in most cases.,http://www.illinoiscourts.gov/CircuitCourt/default.asp,72,Illinois,State and local funding,General Jurisdiction
+73,30,16,Supreme Court,COLR      ,COLR      ,S,No,,https://www.in.gov/judiciary/supreme/,73,Indiana,State funded,Court of Last Resort
+74,31,16,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://www.in.gov/judiciary/appeals/,74,Indiana,State funded,Intermediate Appellate Court
+75,32,16,Tax Court,IAC       ,IAC       ,S,Yes,,https://www.in.gov/judiciary/tax/,75,Indiana,State funded,Intermediate Appellate Court
+76,153,16,Circuit,GJ        ,GJ        ,M,Yes,Jury trials except small claims.,https://www.in.gov/judiciary/2794.htm,76,Indiana,State and local funding,General Jurisdiction
+77,154,16,City,LJ        ,LJ        ,L,No,Jury trials.,https://www.in.gov/judiciary/2794.htm,77,Indiana,Locally funded,Limited Jurisdiction
+78,155,16,Probate,GJ        ,GJ        ,M,No,Jury trials.,https://www.in.gov/judiciary/iocs/2381.htm,78,Indiana,State and local funding,General Jurisdiction
+79,156,16,Small Claims of Marion County,LJ        ,GJ        ,L,No,No jury trials.,-99,79,Indiana,Locally funded,Limited Jurisdiction
+80,157,16,Superior,GJ        ,GJ        ,M,Yes,"Jury trials except small claims, probate/estate, mental health, domestic relations, and juvenile. Jurisdiction varies by county.",https://www.in.gov/judiciary/2794.htm,80,Indiana,State and local funding,General Jurisdiction
+81,158,16,Town,LJ        ,LJ        ,L,No,Jury trials.,https://www.in.gov/judiciary/2794.htm,81,Indiana,Locally funded,Limited Jurisdiction
+82,33,17,Supreme Court,COLR      ,COLR      ,S,No,,https://www.iowacourts.gov/iowa-courts/supreme-court/,82,Iowa,State funded,Court of Last Resort
+83,34,17,Court of Appeals,IAC       ,IAC       ,S,No,,https://www.iowacourts.gov/iowa-courts/court-of-appeals/,83,Iowa,State funded,Intermediate Appellate Court
+84,159,17,District,GJ        ,GJ        ,M,Yes,"Jury trials except in small claims, juvenile, city and county ordinance violations, and mental health.",https://www.iowacourts.gov/iowa-courts/district-court/,84,Iowa,State and local funding,General Jurisdiction
+85,35,18,Supreme Court,COLR      ,COLR      ,S,No,May transfer cases to Court of Appeals.,http://www.kscourts.org/kansas-courts/supreme-court/default.asp,85,Kansas,State funded,Court of Last Resort
+86,36,18,Court of Appeals,IAC       ,IAC       ,S,Yes,,http://www.kscourts.org/kansas-courts/court-of-appeals/default.asp,86,Kansas,State funded,Intermediate Appellate Court
+87,160,18,District,GJ        ,GJ        ,M,Yes,Jury trials except in small claims.,http://www.kscourts.org/kansas-courts/district-courts/default.asp,87,Kansas,State and local funding,General Jurisdiction
+88,161,18,Municipal,LJ        ,LJ        ,L,No,No jury trials.,-99,88,Kansas,Locally funded,Limited Jurisdiction
+89,37,19,Supreme Court,COLR      ,COLR      ,S,No,,https://courts.ky.gov/courts/Supreme/Pages/supremecourt.aspx,89,Kentucky,State funded,Court of Last Resort
+90,38,19,Court of Appeals,IAC       ,IAC       ,S,No,,https://courts.ky.gov/courts/coa/Pages/coa.aspx,90,Kentucky,State funded,Intermediate Appellate Court
+91,162,19,Circuit,GJ        ,GJ        ,S,Yes,Jury trials except in appeals.,https://courts.ky.gov/courts/Pages/CircuitCourt.aspx,91,Kentucky,State funded,General Jurisdiction
+92,163,19,District,LJ        ,LJ        ,S,No,Jury trials in most cases.,https://courts.ky.gov/courts/Pages/districtCourt.aspx,92,Kentucky,State funded,Limited Jurisdiction
+93,164,19,Family,GJ        ,GJ        ,S,No,,https://courts.ky.gov/courts/familycourt/Pages/default.aspx,93,Kentucky,State funded,General Jurisdiction
+94,39,20,Supreme Court,COLR      ,COLR      ,S,No,,http://www.lasc.org/,94,Louisiana,State funded,Court of Last Resort
+95,40,20,Courts of Appel,IAC       ,IAC       ,S,Yes,,http://www.lasc.org/links.asp#CourtsofAppeal,95,Louisiana,State funded,Intermediate Appellate Court
+96,165,20,City & Parish,LJ        ,LJ        ,M,No,No jury trials.,http://www.lasc.org/links.asp#CityandParishCourts,96,Louisiana,State and local funding,Limited Jurisdiction
+97,166,20,District,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,http://www.lasc.org/links.asp#DistrictCourts,97,Louisiana,State and local funding,General Jurisdiction
+98,167,20,Family,GJ        ,GJ        ,M,No,No jury trials.,http://www.lasc.org/court_managed_prog/children_families.asp,98,Louisiana,State and local funding,General Jurisdiction
+99,168,20,Justice of the Peace,LJ        ,LJ        ,M,No,No jury trials.,-99,99,Louisiana,State and local funding,Limited Jurisdiction
+100,169,20,Juvenile,GJ        ,GJ        ,M,No,No jury trials.,http://www.lasc.org/court_managed_prog/children_families.asp,100,Louisiana,State and local funding,General Jurisdiction
+101,170,20,Mayor's,LJ        ,LJ        ,L,No,No jury trials.,-99,101,Louisiana,Locally funded,Limited Jurisdiction
+102,41,21,Supreme Judicial Court,COLR      ,COLR      ,S,Yes,,http://www.courts.maine.gov/maine_courts/supreme/index.shtml,102,Maine,State funded,Court of Last Resort
+103,171,21,District,GJ        ,GJ        ,S,No,No jury trials.,http://www.courts.maine.gov/maine_courts/district/index.shtml,103,Maine,State funded,General Jurisdiction
+104,172,21,Probate,LJ        ,GJ        ,L,No,No jury trials.,http://www.maineprobate.net/index.html,104,Maine,Locally funded,Limited Jurisdiction
+105,173,21,Superior,GJ        ,GJ        ,S,Yes,Jury trials in some cases.,http://www.courts.maine.gov/maine_courts/superior/index.shtml,105,Maine,State funded,General Jurisdiction
+106,42,22,Court of Appeals,COLR      ,COLR      ,S,No,,-99,106,Maryland,State funded,Court of Last Resort
+107,43,22,Court of Special Appeals,IAC       ,IAC       ,S,No,,-99,107,Maryland,State funded,Intermediate Appellate Court
+108,174,22,Circuit,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,-99,108,Maryland,State and local funding,General Jurisdiction
+109,175,22,District,LJ        ,LJ        ,S,No,No jury trials.,-99,109,Maryland,State funded,Limited Jurisdiction
+110,176,22,Orphan's,LJ        ,GJ        ,L,No,No jury trials.,-99,110,Maryland,Locally funded,Limited Jurisdiction
+111,44,23,Supreme Judicial Court,COLR      ,COLR      ,S,Yes,,https://www.mass.gov/orgs/massachusetts-supreme-judicial-court,111,Massachusetts,State funded,Court of Last Resort
+112,45,23,Appeals Court,IAC       ,IAC       ,S,Yes,,https://www.mass.gov/orgs/appeals-court,112,Massachusetts,State funded,Intermediate Appellate Court
+113,177,23,Boston Municipal Court Dept,LJ        ,LJ        ,S,No,Jury trials.,https://www.mass.gov/orgs/boston-municipal-court,113,Massachusetts,State funded,Limited Jurisdiction
+114,178,23,District Court Dept,LJ        ,LJ        ,S,No,Jury trials.,https://www.mass.gov/orgs/district-court,114,Massachusetts,State funded,Limited Jurisdiction
+115,179,23,Housing Court Dept,LJ        ,LJ        ,S,No,Jury trials except in small claims.,https://www.mass.gov/orgs/housing-court/locations,115,Massachusetts,State funded,Limited Jurisdiction
+116,180,23,Juvenile Court Dept,LJ        ,GJ        ,S,No,Jury trials.,https://www.mass.gov/orgs/juvenile-court,116,Massachusetts,State funded,Limited Jurisdiction
+117,181,23,Land Court Dept,LJ        ,LJ        ,S,No,No jury trials.,https://www.mass.gov/orgs/land-court,117,Massachusetts,State funded,Limited Jurisdiction
+118,182,23,Probate & Family Court Dept,LJ        ,GJ        ,S,No,No jury trials.,https://www.mass.gov/orgs/probate-and-family-court,118,Massachusetts,State funded,Limited Jurisdiction
+119,183,23,Superior Court Dept,GJ        ,GJ        ,S,Yes,Jury trials.,https://www.mass.gov/orgs/superior-court,119,Massachusetts,State funded,General Jurisdiction
+120,46,24,Supreme Court,COLR      ,COLR      ,S,No,,http://courts.mi.gov/courts/michigansupremecourt/pages/default.aspx,120,Michigan,State funded,Court of Last Resort
+121,47,24,Court of Appeals,IAC       ,IAC       ,S,No,,http://courts.mi.gov/courts/coa/pages/default.aspx,121,Michigan,State funded,Intermediate Appellate Court
+122,184,24,Circuit,GJ        ,GJ        ,M,Yes,Jury trials except in domestic relations.,http://courts.mi.gov/courts/trialcourts/Pages/default.aspx,122,Michigan,State and local funding,General Jurisdiction
+123,185,24,Court of Claims,GJ        ,GJ        ,M,Yes,No jury trials.,http://courts.mi.gov/courts/coc/Pages/default.aspx,123,Michigan,State and local funding,General Jurisdiction
+124,186,24,District,LJ        ,LJ        ,M,No,Jury trials in most cases.,http://courts.mi.gov/courts/trialcourts/Pages/default.aspx,124,Michigan,State and local funding,Limited Jurisdiction
+125,187,24,Municipal,LJ        ,LJ        ,L,No,Jury trials in most cases.,http://courts.mi.gov/courts/trialcourts/Pages/default.aspx,125,Michigan,Locally funded,Limited Jurisdiction
+126,188,24,Probate,LJ        ,LJ        ,M,No,Jury trials in some cases.,http://courts.mi.gov/courts/trialcourts/Pages/default.aspx,126,Michigan,State and local funding,Limited Jurisdiction
+127,48,25,Supreme Court,COLR      ,COLR      ,S,Yes,,http://www.mncourts.gov/About-The-Courts/SupremeCourt.aspx,127,Minnesota,State funded,Court of Last Resort
+128,49,25,Court of Appeals,IAC       ,IAC       ,S,Yes,,http://www.mncourts.gov/About-The-Courts/CourtOfAppeals.aspx,128,Minnesota,State funded,Intermediate Appellate Court
+129,189,25,District,GJ        ,GJ        ,S,No,"Jury trials except in small claims, child protection, and non-extended jurisdiction juvenile cases.",http://www.mncourts.gov/Find-Courts.aspx,129,Minnesota,State funded,General Jurisdiction
+130,50,26,Supreme Court,COLR      ,COLR      ,S,No,Assigns cases to the Court of Appeals.,-99,130,Mississippi,State funded,Court of Last Resort
+131,51,26,Court of Appeals,IAC       ,IAC       ,S,No,,-99,131,Mississippi,State funded,Intermediate Appellate Court
+132,190,26,Chancery,LJ        ,LJ        ,M,No,Jury trials (limited).,-99,132,Mississippi,State and local funding,Limited Jurisdiction
+133,191,26,Circuit,GJ        ,GJ        ,M,Yes,Jury trials.,-99,133,Mississippi,State and local funding,General Jurisdiction
+134,192,26,County,LJ        ,LJ        ,L,No,Jury trials (limited).,-99,134,Mississippi,Locally funded,Limited Jurisdiction
+135,193,26,Justice,LJ        ,LJ        ,L,No,Jury trials.,-99,135,Mississippi,Locally funded,Limited Jurisdiction
+136,194,26,Municipal,LJ        ,LJ        ,L,No,No jury trials.,-99,136,Mississippi,Locally funded,Limited Jurisdiction
+137,52,27,Supreme Court,COLR      ,COLR      ,S,No,,https://www.courts.mo.gov/page.jsp?id=27,137,Missouri,State funded,Court of Last Resort
+138,53,27,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://www.courts.mo.gov/page.jsp?id=261,138,Missouri,State funded,Intermediate Appellate Court
+139,195,27,Circuit,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,https://www.courts.mo.gov/page.jsp?id=321,139,Missouri,State and local funding,General Jurisdiction
+140,54,28,Supreme Court,COLR      ,COLR      ,S,No,,-99,140,Montana,State funded,Court of Last Resort
+141,197,28,City,LJ        ,LJ        ,L,No,Jury trials.,-99,141,Montana,Locally funded,Limited Jurisdiction
+142,198,28,District,GJ        ,GJ        ,M,Yes,Jury trials.,-99,142,Montana,State and local funding,General Jurisdiction
+143,199,28,Justice's Court,LJ        ,LJ        ,L,No,Jury trials except in small claims.,-99,143,Montana,Locally funded,Limited Jurisdiction
+144,200,28,Municipal,LJ        ,LJ        ,L,No,Jury trials.,-99,144,Montana,Locally funded,Limited Jurisdiction
+145,201,28,Water,GJ        ,GJ        ,S,No,No jury trials.,-99,145,Montana,State funded,General Jurisdiction
+146,202,28,Worker's Compensation,GJ        ,GJ        ,S,No,No jury trials.,-99,146,Montana,State funded,General Jurisdiction
+147,55,29,Supreme Court,COLR      ,COLR      ,S,No,,https://supremecourt.nebraska.gov/courts/supreme-court,147,Nebraska,State funded,Court of Last Resort
+148,56,29,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://supremecourt.nebraska.gov/courts/court-appeals,148,Nebraska,State funded,Intermediate Appellate Court
+149,203,29,County,LJ        ,LJ        ,M,No,Jury trials except in juvenile and small claims.,https://supremecourt.nebraska.gov/courts/county-courts,149,Nebraska,State and local funding,Limited Jurisdiction
+150,204,29,District,GJ        ,GJ        ,M,No,Jury trials except in appeals.,https://supremecourt.nebraska.gov/courts/district-court,150,Nebraska,State and local funding,General Jurisdiction
+151,205,29,Separate Juvenile,LJ        ,GJ        ,M,No,No jury trials.,https://supremecourt.nebraska.gov/courts/separate-juvenile-courts,151,Nebraska,State and local funding,Limited Jurisdiction
+152,206,29,Worker's Compensation,LJ        ,GJ        ,S,No,No jury trials.,https://supremecourt.nebraska.gov/courts/workers-compensation-court,152,Nebraska,State funded,Limited Jurisdiction
+153,57,30,Supreme Court,COLR      ,COLR      ,S,No,Assigns cases to the Court of Appeals.,https://nvcourts.gov/supreme/,153,Nevada,State funded,Court of Last Resort
+154,58,30,Court of Appeals,IAC       ,IAC       ,S,No,,-99,154,Nevada,State funded,Intermediate Appellate Court
+155,207,30,District,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,https://nvcourts.gov/supreme/,155,Nevada,State and local funding,General Jurisdiction
+156,208,30,Justice,LJ        ,LJ        ,L,No,"Jury trials except in small claimsl, traffic, and parking. ",https://nvcourts.gov/Find_a_Court/Justice_Courts/,156,Nevada,Locally funded,Limited Jurisdiction
+157,209,30,Municipal,LJ        ,LJ        ,L,Yes,"Jury trials except in parking, traffic, and specific ordinance violations. ",https://nvcourts.gov/Find_a_Court/Municipal_Courts/,157,Nevada,Locally funded,Limited Jurisdiction
+158,59,31,Supreme Court,COLR      ,COLR      ,S,Yes,,https://www.courts.state.nh.us/supreme/index.htm,158,New Hampshire,State funded,Court of Last Resort
+159,210,31,Circuit,LJ        ,LJ        ,S,No,No jury trials.,https://www.courts.state.nh.us/district/index.htm,159,New Hampshire,State funded,Limited Jurisdiction
+160,211,31,Superior,GJ        ,GJ        ,S,Yes,Jury trials.,https://www.courts.state.nh.us/superior/index.htm,160,New Hampshire,State funded,General Jurisdiction
+161,60,32,Supreme Court,COLR      ,COLR      ,S,Yes,,-99,161,New Jersey,State funded,Court of Last Resort
+162,61,32,Appellate Division of Superior Court,IAC       ,IAC       ,S,Yes,,-99,162,New Jersey,State funded,Intermediate Appellate Court
+163,212,32,Municipal,LJ        ,LJ        ,L,No,No jury trials.,-99,163,New Jersey,Locally funded,Limited Jurisdiction
+164,213,32,Superior,GJ        ,GJ        ,M,No,Jury trials in most cases.,-99,164,New Jersey,State and local funding,General Jurisdiction
+165,214,32,Tax,LJ        ,GJ        ,S,Yes,No jury trials.,-99,165,New Jersey,State funded,Limited Jurisdiction
+166,62,33,Supreme Court,COLR      ,COLR      ,S,Yes,,https://supremecourt.nmcourts.gov/default.aspx,166,New Mexico,State funded,Court of Last Resort
+167,63,33,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://coa.nmcourts.gov/default.aspx,167,New Mexico,State funded,Intermediate Appellate Court
+168,215,33,Bernalillo County Metropolitan,LJ        ,LJ        ,L,No,Jury trials in some cases.,-99,168,New Mexico,Locally funded,Limited Jurisdiction
+169,216,33,District,GJ        ,GJ        ,M,No,Jury trials.,https://www.nmcourts.gov/state-courts.aspx,169,New Mexico,State and local funding,General Jurisdiction
+170,217,33,Magistrate,LJ        ,LJ        ,M,No,No jury trials.,https://www.nmcourts.gov/Magistrate-Courts/court-listing.aspx,170,New Mexico,State and local funding,Limited Jurisdiction
+171,218,33,Municipal,LJ        ,LJ        ,L,No,No jury trials.,-99,171,New Mexico,Locally funded,Limited Jurisdiction
+172,219,33,Probate,LJ        ,GJ        ,L,No,No jury trials.,-99,172,New Mexico,Locally funded,Limited Jurisdiction
+173,64,34,Court of Appeals,COLR      ,COLR      ,S,No,,http://www.courts.state.ny.us/ctapps/,173,New York,State funded,Court of Last Resort
+174,65,34,Appellate Division of Supreme Court,IAC       ,IAC       ,S,Yes,,http://www.courts.state.ny.us/courts/appellatedivisions.shtml,174,New York,State funded,Intermediate Appellate Court
+175,66,34,Appellate Terms of Supreme Court,IAC       ,IAC       ,S,No,,http://www.courts.state.ny.us/courts/lowerappeals.shtml,175,New York,State funded,Intermediate Appellate Court
+176,220,34,City,LJ        ,LJ        ,S,No,Jury trials.,http://www.nycourts.gov/courts/cts-outside-nyc-CITY.shtml,176,New York,State funded,Limited Jurisdiction
+177,221,34,Civil Ct. of the City of NY,LJ        ,LJ        ,S,No,Jury trials.,http://www.courts.state.ny.us/courts/nyc/civil/index.shtml,177,New York,State funded,Limited Jurisdiction
+178,222,34,County,GJ        ,GJ        ,S,No,Jury trials.,http://www.courts.state.ny.us/litigants/courtguides/index.shtml,178,New York,State funded,General Jurisdiction
+179,223,34,Court of Claims,LJ        ,GJ        ,S,No,No jury trials.,http://www.nycourts.gov/courts/nyscourtofclaims/,179,New York,State funded,Limited Jurisdiction
+180,224,34,Criminal Ct of the City of NY,LJ        ,LJ        ,S,No,Jury trials for highest level misdemeanor.,http://www.courts.state.ny.us/courts/nyc/criminal/index.shtml,180,New York,State funded,Limited Jurisdiction
+181,225,34,District,LJ        ,LJ        ,S,No,Jury trials except in traffic.,http://www.courts.state.ny.us/courts/cts-outside-nyc-DISTRICT.shtml,181,New York,State funded,Limited Jurisdiction
+182,226,34,Family,LJ        ,GJ        ,S,No,No jury trials.,http://www.courts.state.ny.us/courts/cts-outside-nyc-FAMILY.shtml,182,New York,State funded,Limited Jurisdiction
+183,227,34,Supreme,GJ        ,GJ        ,S,Yes,Jury trials.,http://www.courts.state.ny.us/courts/nyc/supreme/index.shtml,183,New York,State funded,General Jurisdiction
+184,228,34,Surrogate's,LJ        ,GJ        ,S,No,Jury trials in probate/estate.,http://www.courts.state.ny.us/courts/cts-outside-nyc-SURROGATES.shtml,184,New York,State funded,Limited Jurisdiction
+185,229,34,Town & Village Justice,LJ        ,LJ        ,M,No,Jury trials in most cases.,http://www.nycourts.gov/courts/townandvillage/,185,New York,State and local funding,Limited Jurisdiction
+186,67,35,Supreme Court,COLR      ,COLR      ,S,Yes,,http://www.nccourts.org/Courts/Appellate/Supreme/Default.asp,186,North Carolina,State funded,Court of Last Resort
+187,68,35,Court of Appeals,IAC       ,IAC       ,S,Yes,,http://www.nccourts.org/Courts/Appellate/Appeal/Default.asp,187,North Carolina,State funded,Intermediate Appellate Court
+188,230,35,District,LJ        ,LJ        ,M,No,Jury trials in civil cases only.,http://www.nccourts.org/Courts/Trial/District/Default.asp,188,North Carolina,State and local funding,Limited Jurisdiction
+189,231,35,Superior,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.nccourts.org/Courts/Trial/Superior/Default.asp,189,North Carolina,State and local funding,General Jurisdiction
+190,69,36,Supreme Court,COLR      ,COLR      ,S,No,Assigns cases to the Temporary Court of Appeals.,www.court.state.nd.us/Court/COURT.htm,190,North Dakota,State funded,Court of Last Resort
+191,70,36,Temporary Court of Appeals,IAC       ,IAC       ,S,No,"A temporary court of appeals was established July 1, 1987. The Supreme Court has the authority to call into existence the Court of Appeals for the purpose of exercising appellate and original jurisdiction as delegated by the Supreme Court. Since the Court of Appeals is not a permanent seated court it must be specifically authorized; such authorization for the Court f Appeals extends to January 1, 2020.",-99,191,North Dakota,State funded,Intermediate Appellate Court
+192,232,36,District,GJ        ,GJ        ,S,Yes,Jury trials in many cases.,http://www.ndcourts.gov/court/districts/districts.htm,192,North Dakota,State funded,General Jurisdiction
+193,233,36,Municipal,LJ        ,LJ        ,L,No,No jury trials.,http://www.ndcourts.gov/court/municipal.htm,193,North Dakota,Locally funded,Limited Jurisdiction
+194,72,37,Supreme Court,COLR      ,COLR      ,S,Yes,,http://www.sconet.state.oh.us/,194,Ohio,State funded,Court of Last Resort
+195,73,37,Court of Appeals,IAC       ,IAC       ,S,Yes,,http://www.sconet.state.oh.us/JudSystem/districtCourts/,195,Ohio,State funded,Intermediate Appellate Court
+196,235,37,County,LJ        ,LJ        ,M,No,Jury trials in most cases.,http://www.sconet.state.oh.us/JudSystem/districtCourts/,196,Ohio,State and local funding,Limited Jurisdiction
+197,236,37,Court of Claims,LJ        ,GJ        ,S,No,Jury trials in some cases.,https://ohiocourtofclaims.gov/,197,Ohio,State funded,Limited Jurisdiction
+198,237,37,Court of Common Pleas,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,http://www.sconet.state.oh.us/JudSystem/default.asp,198,Ohio,State and local funding,General Jurisdiction
+199,238,37,Mayor's,LJ        ,LJ        ,L,No,No jury trials.,http://www.ohiomayorscourtclerks.org/,199,Ohio,Locally funded,Limited Jurisdiction
+200,239,37,Municipal,LJ        ,LJ        ,M,No,Jury trials in most cases.,http://www.sconet.state.oh.us/JudSystem/default.asp,200,Ohio,State and local funding,Limited Jurisdiction
+201,74,38,Court of Criminal Appeals,COLR      ,COLR      ,S,No,,http://www.okcca.net/,201,Oklahoma,State funded,Court of Last Resort
+202,75,38,Supreme Court,COLR      ,COLR      ,S,Yes,Assigns cases to the Court of Civil Appeals.,http://www.oscn.net/oscn/schome/start.htm,202,Oklahoma,State funded,Court of Last Resort
+203,76,38,Court of Civil Appeals,IAC       ,IAC       ,S,No,,http://www.oscn.net/oscn/schome/civilappeals.htm,203,Oklahoma,State funded,Intermediate Appellate Court
+204,240,38,District,GJ        ,GJ        ,S,No,Jury trials.,http://www.oscn.net/applications/oscn/start.asp?viewType=COURTS,204,Oklahoma,State funded,General Jurisdiction
+205,241,38,Municipal Court Not of Record,LJ        ,LJ        ,L,No,Jury trials.,-99,205,Oklahoma,Locally funded,Limited Jurisdiction
+206,242,38,Municipal Criminal Court of Record,LJ        ,LJ        ,L,No,Jury trials.,-99,206,Oklahoma,Locally funded,Limited Jurisdiction
+207,243,38,Tax Review,LJ        ,GJ        ,S,Yes,No jury trials.,-99,207,Oklahoma,State funded,Limited Jurisdiction
+209,77,39,Supreme Court,COLR      ,COLR      ,S,Yes,,courts.oregon.gov/Supreme/pages/index.aspx,209,Oregon,State funded,Court of Last Resort
+210,78,39,Court of Appeals,IAC       ,IAC       ,S,Yes,,https://www.courts.oregon.gov/courts/appellate/Pages/default.aspx,210,Oregon,State funded,Intermediate Appellate Court
+211,245,39,Circuit,GJ        ,GJ        ,M,No,Jury trials for most case types.,https://www.courts.oregon.gov/OJD/courts/circuit/index.page,211,Oregon,State and local funding,General Jurisdiction
+212,246,39,County,LJ        ,LJ        ,L,No,No jury trials.,https://sos.oregon.gov/blue-book/Pages/state.aspx,212,Oregon,Locally funded,Limited Jurisdiction
+213,247,39,Justice,LJ        ,LJ        ,L,No,Jury trials for some case types.,https://sos.oregon.gov/blue-book/Pages/state.aspx,213,Oregon,Locally funded,Limited Jurisdiction
+214,248,39,Municipal,LJ        ,LJ        ,L,No,Jury trials for some case types.,https://sos.oregon.gov/blue-book/Pages/state.aspx,214,Oregon,Locally funded,Limited Jurisdiction
+215,249,39,Tax,GJ        ,GJ        ,S,Yes,No jury trials.,https://www.courts.oregon.gov/Tax/pages/index.aspx,215,Oregon,State funded,General Jurisdiction
+216,79,40,Supreme Court,COLR      ,COLR      ,S,No,,http://www.pacourts.us/courts/supreme-court/,216,Pennsylvania,State funded,Court of Last Resort
+217,80,40,Commonwealth Court,IAC       ,IAC       ,S,Yes,,http://www.pacourts.us/courts/commonwealth-court/,217,Pennsylvania,State funded,Intermediate Appellate Court
+218,81,40,Superior Court,IAC       ,IAC       ,S,No,,www.pacourts.us/courts/superior-court/,218,Pennsylvania,State funded,Intermediate Appellate Court
+219,250,40,Court of Common Pleas,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,http://www.pacourts.us/courts/courts-of-common-pleas/,219,Pennsylvania,State and local funding,General Jurisdiction
+220,251,40,Magisterial District Judge,LJ        ,LJ        ,M,No,No jury trials.,http://www.pacourts.us/courts/minor-courts/magisterial-district-judges/,220,Pennsylvania,State and local funding,Limited Jurisdiction
+221,252,40,Philadelphia Municipal,LJ        ,LJ        ,M,No,No jury trials.,http://courts.phila.gov/municipal/,221,Pennsylvania,State and local funding,Limited Jurisdiction
+222,82,41,Supreme Court,COLR      ,COLR      ,S,No,,http://www.ramajudicial.pr/sistema/supremo/index.htm,222,Puerto Rico,State funded,Court of Last Resort
+223,83,41,Court of Appeals,IAC       ,IAC       ,S,No,,http://www.ramajudicial.pr/sistema/apelaciones.htm,223,Puerto Rico,State funded,Intermediate Appellate Court
+224,253,41,Court of First Instance,GJ        ,GJ        ,S,Yes,,http://www.ramajudicial.pr/sistema/instancia.htm,224,Puerto Rico,State funded,General Jurisdiction
+225,84,42,Supreme Court,COLR      ,COLR      ,S,Yes,,https://www.courts.ri.gov/Courts/SupremeCourt/Pages/default.aspx,225,Rhode Island,State funded,Court of Last Resort
+226,254,42,District,LJ        ,LJ        ,S,No,No jury trials.,https://www.courts.ri.gov/Courts/districtcourt/Pages/default.aspx,226,Rhode Island,State funded,Limited Jurisdiction
+227,255,42,Family,LJ        ,GJ        ,S,No,Jury trials.,https://www.courts.ri.gov/Courts/FamilyCourt/Pages/default.aspx,227,Rhode Island,State funded,Limited Jurisdiction
+228,256,42,Municipal,LJ        ,LJ        ,L,No,No jury trials.,-99,228,Rhode Island,Locally funded,Limited Jurisdiction
+229,257,42,Probate,LJ        ,GJ        ,L,No,No jury trials.,-99,229,Rhode Island,Locally funded,Limited Jurisdiction
+230,258,42,Superior,GJ        ,GJ        ,S,Yes,Jury trials.,https://www.courts.ri.gov/Courts/SuperiorCourt/Pages/default.aspx,230,Rhode Island,State funded,General Jurisdiction
+231,259,42,Traffic Tribunal,LJ        ,LJ        ,S,No,No jury trials.,https://www.courts.ri.gov/Courts/rhodeislandtraffictribunal/Pages/default.aspx,231,Rhode Island,State funded,Limited Jurisdiction
+232,260,42,Worker's Compensation,LJ        ,GJ        ,S,Yes,No jury trials.,https://www.courts.ri.gov/Courts/workerscompensationcourt/Pages/default.aspx,232,Rhode Island,State funded,Limited Jurisdiction
+233,85,43,Supreme Court,COLR      ,COLR      ,S,No,May transfer cases from the Court of Appeals.,-99,233,South Carolina,State funded,Court of Last Resort
+234,86,43,Court of Appeals,IAC       ,IAC       ,S,No,,-99,234,South Carolina,State funded,Intermediate Appellate Court
+235,261,43,Circuit,GJ        ,GJ        ,M,Yes,Jury trials except in appeals.,-99,235,South Carolina,State and local funding,General Jurisdiction
+236,262,43,Family,LJ        ,GJ        ,M,No,No jury trials.,-99,236,South Carolina,State and local funding,Limited Jurisdiction
+237,263,43,Magistrate,LJ        ,LJ        ,M,No,Jury trials.,https://www.sccourts.org/magistratecourt/,237,South Carolina,State and local funding,Limited Jurisdiction
+238,264,43,Municipal,LJ        ,LJ        ,M,No,Jury trials.,https://www.sccourts.org/municipalcourt/,238,South Carolina,State and local funding,Limited Jurisdiction
+239,265,43,Probate,LJ        ,GJ        ,M,No,No jury trials.,-99,239,South Carolina,State and local funding,Limited Jurisdiction
+240,87,44,Supreme Court,COLR      ,COLR      ,S,No,,http://ujs.sd.gov/Supreme_Court/default.aspx,240,South Dakota,State funded,Court of Last Resort
+241,266,44,Circuit,GJ        ,GJ        ,M,Yes,Jury trials.,http://ujs.sd.gov/Circuit_Court/default.aspx,241,South Dakota,State and local funding,General Jurisdiction
+242,267,44,Magistrate,LJ        ,LJ        ,M,No,Jury trials except in small claims.,-99,242,South Dakota,State and local funding,Limited Jurisdiction
+243,88,45,Supreme Court,COLR      ,COLR      ,S,No,,http://www.tsc.state.tn.us/courts/supreme-court,243,Tennessee,State funded,Court of Last Resort
+244,89,45,Court of Appeals,IAC       ,IAC       ,S,Yes,,http://www.tsc.state.tn.us/courts/court-appeals,244,Tennessee,State funded,Intermediate Appellate Court
+245,90,45,Court of Criminal Appeals,IAC       ,IAC       ,S,No,,http://www.tsc.state.tn.us/courts/court-criminal-appeals,245,Tennessee,State funded,Intermediate Appellate Court
+246,268,45,Chancery,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.tsc.state.tn.us/courts/court-criminal-appeals,246,Tennessee,State and local funding,General Jurisdiction
+247,269,45,Circuit,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.tsc.state.tn.us/courts/circuit-criminal-chancery-courts,247,Tennessee,State and local funding,General Jurisdiction
+248,270,45,Criminal,GJ        ,GJ        ,M,No,Jury trials.,http://www.tsc.state.tn.us/courts/circuit-criminal-chancery-courts,248,Tennessee,State and local funding,General Jurisdiction
+249,271,45,General Sessions,LJ        ,LJ        ,M,No,No jury trials.,http://www.tsc.state.tn.us/courts/municipal-courts,249,Tennessee,State and local funding,Limited Jurisdiction
+250,272,45,Juvenile,LJ        ,GJ        ,M,No,No jury trials.,http://www.tncourts.gov/courts/juvenile-family-courts,250,Tennessee,State and local funding,Limited Jurisdiction
+251,273,45,Municipal,LJ        ,LJ        ,M,No,No jury trials.,http://www.tsc.state.tn.us/courts/municipal-courts,251,Tennessee,State and local funding,Limited Jurisdiction
+252,274,45,Probate,GJ        ,GJ        ,L,No,No jury trials.,http://www.tsc.state.tn.us/courts/circuit-criminal-chancery-courts/about,252,Tennessee,Locally funded,General Jurisdiction
+253,91,46,Court of Criminal Appeals,COLR      ,COLR      ,S,No,,http://www.txcourts.gov/cca,253,Texas,State funded,Court of Last Resort
+254,92,46,Supreme Court,COLR      ,COLR      ,S,No,,http://www.txcourts.gov/supreme.aspx,254,Texas,State funded,Court of Last Resort
+255,93,46,Court of Appeals,IAC       ,IAC       ,S,No,,http://www.txcourts.gov/about-texas-courts/courts-of-appeals.aspx,255,Texas,State funded,Intermediate Appellate Court
+256,275,46,Constitutional County,LJ        ,LJ        ,S,No,Jury trials.,-99,256,Texas,State funded,Limited Jurisdiction
+257,276,46,County Court at Law,LJ        ,LJ        ,S,No,Jury trials.,-99,257,Texas,State funded,Limited Jurisdiction
+258,277,46,District,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.txcourts.gov/courts/overview/about-texas-courts/trial-courts.aspx,258,Texas,State and local funding,General Jurisdiction
+259,278,46,Justice,LJ        ,LJ        ,L,No,Jury trials.,http://www.txcourts.gov/courts/overview/about-texas-courts/trial-courts.aspx,259,Texas,Locally funded,Limited Jurisdiction
+260,279,46,Municipal,LJ        ,LJ        ,L,No,Jury trials.,http://www.txcourts.gov/courts/overview/about-texas-courts/trial-courts.aspx,260,Texas,Locally funded,Limited Jurisdiction
+261,280,46,Statutory Probate,LJ        ,LJ        ,M,No,Jury trials.,-99,261,Texas,State and local funding,Limited Jurisdiction
+262,94,47,Supreme Court,COLR      ,COLR      ,S,No,,https://www.utcourts.gov/courts/sup/index.htm,262,Utah,State funded,Court of Last Resort
+263,95,47,Court of Appeals,IAC       ,IAC       ,S,No,,https://www.utcourts.gov/courts/sup/index.htm,263,Utah,State funded,Intermediate Appellate Court
+264,281,47,District,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,https://www.utcourts.gov/courts/dist/index.htm,264,Utah,State and local funding,General Jurisdiction
+265,282,47,Justice,LJ        ,LJ        ,L,No,Jury trials in some case types.,https://www.utcourts.gov/courts/just/index.htm,265,Utah,Locally funded,Limited Jurisdiction
+266,283,47,Juvenile,LJ        ,GJ        ,M,No,No jury trials.,https://www.utcourts.gov/courts/juv/index.htm,266,Utah,State and local funding,Limited Jurisdiction
+267,96,48,Supreme Court,COLR      ,COLR      ,S,No,,https://www.vermontjudiciary.org/supreme-court,267,Vermont,State funded,Court of Last Resort
+268,284,48,Superior,GJ        ,GJ        ,S,Yes,Jury trials.,https://www.vermontjudiciary.org/court-divisions,268,Vermont,State funded,General Jurisdiction
+269,98,49,Supreme Court,COLR      ,COLR      ,S,No,,http://www.courts.state.va.us/courts/scv/home.html,269,Virginia,State funded,Court of Last Resort
+270,99,49,Court of Appeals,IAC       ,IAC       ,S,No,,http://www.courts.state.va.us/courts/cav/home.html,270,Virginia,State funded,Intermediate Appellate Court
+271,286,49,Circuit,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.courts.state.va.us/courts/circuit/home.html,271,Virginia,State and local funding,General Jurisdiction
+272,287,49,District,LJ        ,LJ        ,M,No,No jury trials.,http://www.courts.state.va.us/courts/gd/home.html,272,Virginia,State and local funding,Limited Jurisdiction
+273,100,50,Supreme Court,COLR      ,COLR      ,S,No,,http://www.courts.wa.gov/appellate_trial_courts/,273,Washington,State funded,Court of Last Resort
+274,101,50,Court of Appeals,IAC       ,IAC       ,S,No,,http://www.courts.wa.gov/appellate_trial_courts/,274,Washington,State funded,Intermediate Appellate Court
+275,288,50,District,LJ        ,LJ        ,L,No,Jury trials except in traffic infractions and parking violations.,http://www.courts.wa.gov/appellate_trial_courts/?fa=atc.crtPage&crtType=Dist,275,Washington,Locally funded,Limited Jurisdiction
+276,289,50,Municipal,LJ        ,LJ        ,L,No,Jury trials except in traffic infractions and parking violations.,http://www.courts.wa.gov/appellate_trial_courts/?fa=atc.crtPage&crtType=Muni,276,Washington,Locally funded,Limited Jurisdiction
+277,290,50,Superior,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.courts.wa.gov/appellate_trial_courts/?fa=atc.crtPage&crtType=Super,277,Washington,State and local funding,General Jurisdiction
+278,102,51,Supreme Court of Appeals,COLR      ,COLR      ,S,No,,http://www.courtswv.gov/supreme-court/index.html,278,West Virginia,State funded,Court of Last Resort
+279,291,51,Circuit,GJ        ,GJ        ,M,Yes,Jury trials.,http://www.courtswv.gov/lower-courts/circuit-courts.html,279,West Virginia,State and local funding,General Jurisdiction
+280,292,51,Family,LJ        ,LJ        ,M,No,No jury trials.,http://www.courtswv.gov/lower-courts/family-courts.html,280,West Virginia,State and local funding,Limited Jurisdiction
+281,293,51,Magistrate,LJ        ,LJ        ,S,No,Jury trials.,http://www.courtswv.gov/lower-courts/magistrate-courts.html,281,West Virginia,State funded,Limited Jurisdiction
+282,294,51,Municipal,LJ        ,LJ        ,L,No,Jury trials.,-99,282,West Virginia,Locally funded,Limited Jurisdiction
+283,103,52,Supreme Court,COLR      ,COLR      ,S,No,,https://wicourts.gov/courts/supreme/index.htm,283,Wisconsin,State funded,Court of Last Resort
+284,104,52,Court of Appeals,IAC       ,IAC       ,S,No,,https://wicourts.gov/courts/appeals/index.htm,284,Wisconsin,State funded,Intermediate Appellate Court
+285,295,52,Circuit,GJ        ,GJ        ,M,Yes,Jury trials in most cases.,https://wicourts.gov/courts/circuit/index.htm,285,Wisconsin,State and local funding,General Jurisdiction
+286,296,52,Municipal,LJ        ,LJ        ,L,No,No jury trials.,https://wicourts.gov/courts/municipal/index.htm,286,Wisconsin,Locally funded,Limited Jurisdiction
+287,105,53,Supreme Court,COLR      ,COLR      ,S,Yes,,https://www.courts.state.wy.us/supreme-court/,287,Wyoming,State funded,Court of Last Resort
+288,297,53,Circuit,LJ        ,LJ        ,M,No,Jury trials except in small claims.,https://www.courts.state.wy.us/circuit-courts/,288,Wyoming,State and local funding,Limited Jurisdiction
+289,298,53,District,GJ        ,GJ        ,M,Yes,Jury trials.,https://www.courts.state.wy.us/district-courts/,289,Wyoming,State and local funding,General Jurisdiction
+290,299,53,Municipal,LJ        ,LJ        ,L,No,Jury trials.,-99,290,Wyoming,Locally funded,Limited Jurisdiction

@@ -1,0 +1,341 @@
+CourtCourtNameID,CourtNameID,CourtID,State,CourtNameName,NumberDivisions,NumberJudges,PanelDecisionID,NumberPanels,EFilingMandatoryID,EFilingFeeID,NumberOfIndividualCourts,EFilingMandatoryStatewideCivilID,EfilingMandatoryStatewideCriminalID,EfilingMandatoryStatewideDRID,EfilingMandatoryStatewideJuvenileID,EfilingMandatoryStatewideTrafficID,CaseManagementID,DisplayOrder,PanelDecisionDescription,CaseManagementDescription
+1,1,2,Alabama,Court of Civil Appeals,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,1,Missing information,
+2,2,3,Alabama,Court of Criminal Appeals,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,2,Missing information,
+3,3,1,Alabama,Supreme Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,3,Missing information,
+4,4,5,Alaska,Court of Appeals,0,3,0,,-98,-98,,-98,-98,-98,-98,-98,-98,4,No,
+5,5,4,Alaska,Supreme Court,0,5,0,,-98,-98,,-98,-98,-98,-98,-98,-98,5,No,
+6,7,8,Arizona,Court of Appeal Division One,0,16,1,5,1,1,,-98,-98,-98,-98,-98,-98,6,Yes,
+7,8,8,Arizona,Court of Appeal  Division Two,0,6,1,2,1,1,,-98,-98,-98,-98,-98,-98,7,Yes,
+8,9,7,Arizona,Supreme Court,0,7,1,1,1,1,,-98,-98,-98,-98,-98,-98,8,Yes,
+9,10,10,Arkansas,Court of Appeals,4,12,1,4,1,0,,-98,-98,-98,-98,-98,-98,9,Yes,
+10,11,9,Arkansas,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,10,No,
+11,12,12,California,Courts of Appeal 1st District,5,20,1,5,1,1,,-98,-98,-98,-98,-98,-98,11,Yes,
+12,13,12,California,Courts of Appeal 2nd District,8,32,1,8,-98,-98,,-98,-98,-98,-98,-98,-98,12,Yes,
+13,14,12,California,Courts of Appeal 3rd District,1,10,-99,,1,1,,-98,-98,-98,-98,-98,-98,13,Missing information,
+14,15,12,California,Courts of Appeal 4th District,3,21,-99,,1,1,,-98,-98,-98,-98,-98,-98,14,Missing information,
+15,16,12,California,Courts of Appeal 5th District,1,9,-99,,1,1,,-98,-98,-98,-98,-98,-98,15,Missing information,
+16,17,12,California,Courts of Appeal 6th District,1,7,-99,,1,1,,-98,-98,-98,-98,-98,-98,16,Missing information,
+17,18,11,California,Supreme Court,1,7,0,,-98,-98,,-98,-98,-98,-98,-98,-98,17,No,
+18,19,13,Colorado,Court of Appeals,7,22,1,7,0,1,,-98,-98,-98,-98,-98,-98,18,Yes,
+19,20,14,Colorado,Supreme Court,0,7,0,,-98,-98,,-98,-98,-98,-98,-98,-98,19,No,
+20,21,16,Connecticut,Appellate Court,0,9,1,3,-98,-98,,-98,-98,-98,-98,-98,-98,20,Yes,
+21,22,15,Connecticut,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,21,No,
+22,23,17,Delaware,Supreme Court,0,5,1,10,1,1,,-98,-98,-98,-98,-98,-98,22,Yes,
+23,24,18,District of Columbia,Court of Appeals,5,9,1,2,0,0,,-98,-98,-98,-98,-98,-98,23,Yes,
+24,25,20,Florida,Fifth District Court of Appeal,0,11,0,,1,0,,-98,-98,-98,-98,-98,-98,24,No,
+25,26,20,Florida,First District Court of Appeal,0,15,1,4,1,0,,-98,-98,-98,-98,-98,-98,25,Yes,
+26,27,20,Florida,Fourth District Court of Appeal,0,12,0,,1,0,,-98,-98,-98,-98,-98,-98,26,No,
+27,28,20,Florida,Second District Court of Appeal,0,16,1,4,1,0,,-98,-98,-98,-98,-98,-98,27,Yes,
+28,29,19,Florida,Supreme Court,0,7,1,1,1,0,,-98,-98,-98,-98,-98,-98,28,Yes,
+29,30,20,Florida,Third District Court of Appeal,0,10,-99,,1,0,,-98,-98,-98,-98,-98,-98,29,Missing information,
+30,31,22,Georgia,Court of Appeals,5,15,1,5,1,0,,-98,-98,-98,-98,-98,-98,30,Yes,
+31,32,21,Georgia,Supreme Court,0,9,0,,1,0,,-98,-98,-98,-98,-98,-98,31,No,
+32,33,23,Guam,Supreme Court,5,3,1,1,0,0,,-98,-98,-98,-98,-98,-98,32,Yes,
+33,34,25,Hawai'i,Intermediate Court of Appeals,0,6,1,2,1,0,,-98,-98,-98,-98,-98,-98,33,Yes,
+34,35,24,Hawai'i,Supreme Court,0,5,0,,1,0,,-98,-98,-98,-98,-98,-98,34,No,
+35,36,27,Idaho,Court of Appeals,-99,-99,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,35,Missing information,
+36,37,26,Idaho,Supreme Court,-99,-99,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,36,Missing information,
+37,38,29,Illinois,Fifth District Court of Appeals,0,7,-99,,0,0,,-98,-98,-98,-98,-98,-98,37,Missing information,
+38,39,29,Illinois,First District Court of Appeals,6,24,1,1,-98,-98,,-98,-98,-98,-98,-98,-98,38,Yes,
+39,40,29,Illinois,Fourth District Court of Appeals,0,7,-99,,0,0,,-98,-98,-98,-98,-98,-98,39,Missing information,
+40,41,29,Illinois,Second District Court of Appeals,0,9,1,1,0,0,,-98,-98,-98,-98,-98,-98,40,Yes,
+41,42,28,Illinois,Supreme Court,0,7,0,,0,0,,-98,-98,-98,-98,-98,-98,41,No,
+42,43,29,Illinois,Third District Court of Appeals,0,7,-99,,0,0,,-98,-98,-98,-98,-98,-98,42,Missing information,
+43,44,31,Indiana,Court of Appeals,0,15,1,5,1,0,,-98,-98,-98,-98,-98,-98,43,Yes,
+44,45,30,Indiana,Supreme Court,0,5,0,,1,0,,-98,-98,-98,-98,-98,-98,44,No,
+45,46,32,Indiana,Tax Court,0,1,0,,1,0,,-98,-98,-98,-98,-98,-98,45,No,
+46,47,34,Iowa,Court of Appeals,0,9,1,3,1,0,,-98,-98,-98,-98,-98,-98,46,Yes,
+47,48,33,Iowa,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,47,No,
+48,49,36,Kansas,Court of Appeals,0,14,1,5,1,0,,-98,-98,-98,-98,-98,-98,48,Yes,
+49,50,35,Kansas,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,49,No,
+50,51,38,Kentucky,Court of Appeals,3,14,1,3,-98,-98,,-98,-98,-98,-98,-98,-98,50,Yes,
+51,52,37,Kentucky,Supreme Court,0,7,0,,-98,-98,,-98,-98,-98,-98,-98,-98,51,No,
+52,53,40,Louisiana,Fifth Circuit Courts of Appeal,9,8,-99,,0,1,,-98,-98,-98,-98,-98,-98,52,Missing information,
+53,54,40,Louisiana,First Circuit Courts of Appeal,12,12,1,4,0,1,,-98,-98,-98,-98,-98,-98,53,Yes,
+54,55,40,Louisiana,Fourth Circuit Courts of Appeal,12,12,-99,,0,1,,-98,-98,-98,-98,-98,-98,54,Missing information,
+55,56,40,Louisiana,Second Circuit Courts of Appeal,8,9,1,4,-98,-98,,-98,-98,-98,-98,-98,-98,55,Yes,
+56,57,39,Louisiana,Supreme Court,7,7,0,,0,1,,-98,-98,-98,-98,-98,-98,56,No,
+57,58,40,Louisiana,Third Circuit Courts of Appeal,12,12,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,57,Missing information,
+58,59,41,Maine,Supreme Judicial Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,58,Missing information,
+59,60,42,Maryland,Court of Appeals,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,59,No,
+60,61,43,Maryland,Court of Special Appeals,0,15,1,5,1,0,,-98,-98,-98,-98,-98,-98,60,Yes,
+61,62,45,Massachusetts,Appeals Court,0,25,1,1,0,1,,-98,-98,-98,-98,-98,-98,61,Yes,
+62,63,44,Massachusetts,Supreme Judicial Court,0,7,0,,0,1,,-98,-98,-98,-98,-98,-98,62,No,
+63,64,47,Michigan,Court of Appeals,4,27,1,9,0,0,,-98,-98,-98,-98,-98,-98,63,Yes,
+64,65,46,Michigan,Supreme Court,1,7,0,,0,0,,-98,-98,-98,-98,-98,-98,64,No,
+65,66,49,Minnesota,Court of Appeals,0,19,1,6,1,0,,-98,-98,-98,-98,-98,-98,65,Yes,
+66,67,48,Minnesota,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,66,No,
+67,68,51,Mississippi,Court of Appeals,1,10,1,3,0,0,,-98,-98,-98,-98,-98,-98,67,Yes,
+68,69,50,Mississippi,Supreme Court,1,9,1,3,0,0,,-98,-98,-98,-98,-98,-98,68,Yes,
+69,70,53,Missouri,Court of Appeals Eastern,0,14,1,5,1,0,,-98,-98,-98,-98,-98,-98,69,Yes,
+70,71,53,Missouri,Court of Appeals Southern,0,7,1,5,1,0,,-98,-98,-98,-98,-98,-98,70,Yes,
+71,72,53,Missouri,Court of Appeals Western,0,11,-99,,1,0,,-98,-98,-98,-98,-98,-98,71,Missing information,
+72,73,52,Missouri,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,72,No,
+73,74,54,Montana,Supreme Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,73,Missing information,
+74,75,56,Nebraska,Court of Appeals,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,74,Missing information,
+75,76,55,Nebraska,Supreme Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,75,Missing information,
+76,77,58,Nevada,Court of Appeals,0,3,0,,0,0,,-98,-98,-98,-98,-98,-98,76,No,
+77,78,57,Nevada,Supreme Court,1,7,1,2,0,0,,-98,-98,-98,-98,-98,-98,77,Yes,
+78,79,59,New Hampshire,Supreme Court,1,5,1,1,-98,-98,,-98,-98,-98,-98,-98,-98,78,Yes,
+79,80,61,New Jersey,Appellate Division of Superior Court,8,33,1,8,0,0,,-98,-98,-98,-98,-98,-98,79,Yes,
+80,81,60,New Jersey,Supreme Court,0,7,0,,0,0,,-98,-98,-98,-98,-98,-98,80,No,
+81,82,63,New Mexico,Court of Appeals,0,10,1,3,-98,-98,,-98,-98,-98,-98,-98,-98,81,Yes,
+82,83,62,New Mexico,Supreme Court,0,5,0,,1,0,,-98,-98,-98,-98,-98,-98,82,No,
+83,84,64,New York,Court of Appeals,-99,7,-99,,0,0,,-98,-98,-98,-98,-98,-98,83,Missing information,
+84,85,65,New York,Supreme Ct. Appellate Div. 1st,-99,14,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,84,Missing information,
+85,86,65,New York,Supreme Ct. Appellate Div. 2nd,-99,20,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,85,Missing information,
+86,87,65,New York,Supreme Ct. Appellate Div. 3rd,-99,9,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,86,Missing information,
+87,88,65,New York,Supreme Ct. Appellate Div. 4th,-99,10,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,87,Missing information,
+88,89,66,New York,Supreme Ct. Appellate Term 1st,-99,0,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,88,Missing information,
+89,90,66,New York,Supreme Ct. Appellate Term 2nd,-99,0,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,89,Missing information,
+90,91,68,North Carolina,Court of Appeals,1,15,1,5,0,0,,-98,-98,-98,-98,-98,-98,90,Yes,
+91,92,67,North Carolina,Supreme Court,1,7,0,,0,0,,-98,-98,-98,-98,-98,-98,91,No,
+92,93,69,North Dakota,Supreme Court,1,5,0,,0,0,,-98,-98,-98,-98,-98,-98,92,No,
+93,94,70,North Dakota,Temporary Court of Appeals,1,3,0,,-98,-98,,-98,-98,-98,-98,-98,-98,93,No,
+94,96,73,Ohio,Court of Appeals 1st District,0,6,1,2,-98,-98,,-98,-98,-98,-98,-98,-98,94,Yes,
+95,97,73,Ohio,Court of Appeals 2nd District,0,5,1,2,-98,-98,,-98,-98,-98,-98,-98,-98,95,Yes,
+96,98,73,Ohio,Court of Appeals 3rd District,0,4,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,96,Missing information,
+97,99,73,Ohio,Court of Appeals 4th District,0,4,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,97,Missing information,
+98,100,73,Ohio,Court of Appeals 5th District,0,6,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,98,Missing information,
+99,101,73,Ohio,Court of Appeals 6th District,0,5,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,99,Missing information,
+100,102,73,Ohio,Court of Appeals 7th District,0,4,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,100,Missing information,
+101,103,73,Ohio,Court of Appeals 8th District,0,12,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,101,Missing information,
+102,104,73,Ohio,Court of Appeals 9th District,0,5,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,102,Missing information,
+103,105,73,Ohio,Court of Appeals 10th District,0,8,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,103,Missing information,
+104,106,73,Ohio,Court of Appeals 11th District,0,5,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,104,Missing information,
+105,107,73,Ohio,Court of Appeals 12th District,0,5,-99,,-98,-98,,-98,-98,-98,-98,-98,-98,105,Missing information,
+106,108,72,Ohio,Supreme Court,0,7,0,,0,0,,-98,-98,-98,-98,-98,-98,106,No,
+107,109,76,Oklahoma,Court of Civil Appeals,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,107,Missing information,
+108,110,74,Oklahoma,Court of Criminal Appeals,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,108,Missing information,
+109,111,75,Oklahoma,Supreme Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,109,Missing information,
+110,112,78,Oregon,Court of Appeals,0,13,1,4,1,0,,-98,-98,-98,-98,-98,-98,110,Yes,
+111,113,77,Oregon,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,111,No,
+112,114,80,Pennsylvania,Commonwealth Court,0,9,1,1,-98,-98,,-98,-98,-98,-98,-98,-98,112,Yes,
+113,115,81,Pennsylvania,Superior Court,3,23,1,1,0,0,,-98,-98,-98,-98,-98,-98,113,Yes,
+114,116,79,Pennsylvania,Supreme Court,0,7,0,,0,0,,-98,-98,-98,-98,-98,-98,114,No,
+115,117,83,Puerto Rico,Court of Appeals,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,115,Missing information,
+116,118,82,Puerto Rico,Supreme Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,116,Missing information,
+117,119,84,Rhode Island,Supreme Court,0,5,0,,-98,-98,,-98,-98,-98,-98,-98,-98,117,No,
+118,120,86,South Carolina,Court of Appeals,0,8,1,3,-98,-98,,-98,-98,-98,-98,-98,-98,118,Yes,
+119,121,85,South Carolina,Supreme Court,0,5,0,,-98,-98,,-98,-98,-98,-98,-98,-98,119,No,
+120,122,87,South Dakota,Supreme Court,0,5,0,,-99,-99,,-98,-98,-98,-98,-98,-98,120,No,
+121,123,89,Tennessee,Court of Appeals,3,12,1,3,-98,-98,,-98,-98,-98,-98,-98,-98,121,Yes,
+122,124,90,Tennessee,Court of Criminal Appeals,3,12,1,3,-98,-98,,-98,-98,-98,-98,-98,-98,122,Yes,
+123,125,88,Tennessee,Supreme Court,0,5,0,,-98,-98,,-98,-98,-98,-98,-98,-98,123,No,
+124,126,93,Texas,Court of Appeals 1st District,0,9,1,3,1,0,,-98,-98,-98,-98,-98,-98,124,Yes,
+125,127,93,Texas,Court of Appeals 2nd District,0,7,-99,,1,0,,-98,-98,-98,-98,-98,-98,125,Missing information,
+126,128,93,Texas,Court of Appeals 3rd District,0,6,-99,,1,0,,-98,-98,-98,-98,-98,-98,126,Missing information,
+127,129,93,Texas,Court of Appeals 4th District,0,7,-99,,1,0,,-98,-98,-98,-98,-98,-98,127,Missing information,
+128,130,93,Texas,Court of Appeals 5th District,0,13,-99,,1,0,,-98,-98,-98,-98,-98,-98,128,Missing information,
+129,131,93,Texas,Court of Appeals 6th District,0,3,-99,,1,0,,-98,-98,-98,-98,-98,-98,129,Missing information,
+130,132,93,Texas,Court of Appeals 7th District,0,4,-99,,1,0,,-98,-98,-98,-98,-98,-98,130,Missing information,
+131,133,93,Texas,Court of Appeals 8th District,0,3,-99,,1,0,,-98,-98,-98,-98,-98,-98,131,Missing information,
+132,134,93,Texas,Court of Appeals 9th District,0,4,-99,,1,0,,-98,-98,-98,-98,-98,-98,132,Missing information,
+133,135,93,Texas,Court of Appeals 10th District,0,3,-99,,1,0,,-98,-98,-98,-98,-98,-98,133,Missing information,
+134,136,93,Texas,Court of Appeals 11th District,0,3,-99,,1,0,,-98,-98,-98,-98,-98,-98,134,Missing information,
+135,137,93,Texas,Court of Appeals 12th District,0,3,-99,,1,0,,-98,-98,-98,-98,-98,-98,135,Missing information,
+136,138,93,Texas,Court of Appeals 13th District,0,6,-99,,1,0,,-98,-98,-98,-98,-98,-98,136,Missing information,
+137,139,93,Texas,Court of Appeals 14th District,0,9,-99,,1,0,,-98,-98,-98,-98,-98,-98,137,Missing information,
+138,140,91,Texas,Court of Criminal Appeals,0,9,0,,1,0,,-98,-98,-98,-98,-98,-98,138,No,
+139,141,92,Texas,Supreme Court,0,9,0,,1,0,,-98,-98,-98,-98,-98,-98,139,No,
+140,142,95,Utah,Court of Appeals,0,7,1,2,-98,-98,,-98,-98,-98,-98,-98,-98,140,Yes,
+141,143,94,Utah,Supreme Court,0,5,1,1,-98,-98,,-98,-98,-98,-98,-98,-98,141,Yes,
+142,144,96,Vermont,Supreme Court,1,5,0,,-98,-98,,-98,-98,-98,-98,-98,-98,142,No,
+143,146,99,Virginia,Court of Appeals,0,11,1,30,-99,-99,,-98,-98,-98,-98,-98,-98,143,Yes,
+144,147,98,Virginia,Supreme Court,0,7,1,3,-99,-99,,-98,-98,-98,-98,-98,-98,144,Yes,
+145,148,101,Washington,Courts of Appeals Division I,0,10,1,10,0,0,,-98,-98,-98,-98,-98,-98,145,Yes,
+146,149,101,Washington,Courts of Appeals Division II,0,7,1,12,0,0,,-98,-98,-98,-98,-98,-98,146,Yes,
+147,150,101,Washington,Courts of Appeals Division III,0,5,-99,,0,0,,-98,-98,-98,-98,-98,-98,147,Missing information,
+148,151,100,Washington,Supreme Court,0,9,0,,0,0,,-98,-98,-98,-98,-98,-98,148,No,
+149,152,102,West Virginia,Supreme Court of Appeals,0,5,0,,-98,-98,,-98,-98,-98,-98,-98,-98,149,No,
+150,153,104,Wisconsin,Court of Appeals,0,16,1,4,1,0,,-98,-98,-98,-98,-98,-98,150,Yes,
+151,154,103,Wisconsin,Supreme Court,0,7,0,,1,0,,-98,-98,-98,-98,-98,-98,151,No,
+152,155,105,Wyoming,Supreme Court,-99,-99,-99,,-99,-99,,-98,-98,-98,-98,-98,-98,152,Missing information,
+153,156,106,Alabama,Circuit,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,153,,All courts on the same case management system
+154,157,107,Alabama,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,154,,All courts on the same case management system
+155,158,108,Alabama,Municipal,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,155,,All courts on the same case management system
+156,159,109,Alabama,Probate,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,156,,All courts on the same case management system
+157,160,111,Alaska,Superior,-98,23,-98,,-98,-98,16.0,0,0,0,0,0,1,157,,All courts on the same case management system
+158,161,110,Alaska,District,-98,42,-98,,-98,-98,26.0,0,0,0,0,0,1,158,,All courts on the same case management system
+159,165,117,Arizona,Superior,-98,88,-98,,-98,-98,81.0,1,0,0,0,0,1,159,,All courts on the same case management system
+160,166,118,Arizona,Tax,-98,138,-98,,-98,-98,82.0,1,0,0,0,0,1,160,,All courts on the same case management system
+161,167,115,Arizona,Justice of the Peace,-98,180,-98,,-98,-98,15.0,1,0,0,0,0,0,161,,Not all courts on the same case management system
+162,168,116,Arizona,Municipal,-98,1,-98,,-98,-98,1.0,1,0,0,0,0,1,162,,All courts on the same case management system
+163,169,119,Arkansas,Circuit,-98,121,-98,,-98,-98,28.0,-98,-98,-98,-98,-98,1,163,,All courts on the same case management system
+164,170,120,Arkansas,District,-98,110,-98,,-98,-98,84.0,-98,-98,-98,-98,-98,1,164,,All courts on the same case management system
+165,171,121,California,Superior,-98,1680,-98,,-98,-98,58.0,0,0,0,0,0,1,165,,All courts on the same case management system
+166,172,123,Colorado,Denver Juvenile,-98,136,-98,,-98,-98,64.0,1,1,1,1,1,1,166,,All courts on the same case management system
+167,173,124,Colorado,Denver Probate,-98,3,-98,,-98,-98,1.0,1,1,1,1,1,1,167,,All courts on the same case management system
+168,174,125,Colorado,District,-98,1,-98,,-98,-98,1.0,1,1,1,1,1,1,168,,All courts on the same case management system
+169,175,127,Colorado,Water,-98,177,-98,,-98,-98,22.0,1,1,1,1,1,1,169,,All courts on the same case management system
+170,176,122,Colorado,County,-98,-99,-98,,-98,-98,,1,1,1,1,1,0,170,,Not all courts on the same case management system
+171,177,126,Colorado,Municipal,-98,7,-98,,-98,-98,7.0,1,1,1,1,1,0,171,,Not all courts on the same case management system
+172,178,129,Connecticut,Superior,-98,-99,-98,,-98,-98,,0,0,0,0,0,0,172,,Not all courts on the same case management system
+173,179,128,Connecticut,Probate,-98,163,-98,,-98,-98,43.0,0,0,0,0,0,0,173,,Not all courts on the same case management system
+174,180,131,Delaware,Court of Chancery,-98,6,-98,,-98,-98,6.0,-98,-98,-98,-98,-98,0,174,,Not all courts on the same case management system
+175,181,135,Delaware,Superior,-98,5,-98,,-98,-98,3.0,-98,-98,-98,-98,-98,0,175,,Not all courts on the same case management system
+176,182,130,Delaware,Aldermans,-98,9,-98,,-98,-98,3.0,-98,-98,-98,-98,-98,0,176,,Not all courts on the same case management system
+177,183,132,Delaware,Court of Common Pleas,-98,18,-98,,-98,-98,3.0,-98,-98,-98,-98,-98,0,177,,Not all courts on the same case management system
+178,184,133,Delaware,Family,-98,31,-98,,-98,-98,15.0,-98,-98,-98,-98,-98,0,178,,Not all courts on the same case management system
+179,185,134,Delaware,Justice of the Peace,-98,21,-98,,-98,-98,3.0,-98,-98,-98,-98,-98,0,179,,Not all courts on the same case management system
+180,186,136,District of Columbia,Superior,-98,62,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,0,180,,Not all courts on the same case management system
+181,187,137,Florida,Circuit,-98,599,-98,,-98,-98,20.0,1,1,1,1,0,0,181,,Not all courts on the same case management system
+182,188,138,Florida,County,-98,322,-98,,-98,-98,67.0,1,1,1,1,0,0,182,,Not all courts on the same case management system
+183,189,146,Georgia,Superior,-98,4,-98,,-98,-98,2.0,-98,-98,-98,-98,-98,0,183,,Not all courts on the same case management system
+184,190,139,Georgia,Civil,-98,-99,-98,,-98,-98,3.0,-98,-98,-98,-98,-98,0,184,,Not all courts on the same case management system
+185,191,140,Georgia,County Recorder's,-98,132,-98,,-98,-98,159.0,-98,-98,-98,-98,-98,0,185,,Not all courts on the same case management system
+186,192,141,Georgia,Juvenile,-98,510,-98,,-98,-98,159.0,-98,-98,-98,-98,-98,0,186,,Not all courts on the same case management system
+187,193,142,Georgia,Magistrate,-98,346,-98,,-98,-98,365.0,-98,-98,-98,-98,-98,0,187,,Not all courts on the same case management system
+188,194,143,Georgia,Municipal,-98,170,-98,,-98,-98,159.0,-98,-98,-98,-98,-98,1,188,,All courts on the same case management system
+189,195,144,Georgia,Probate,-98,129,-98,,-98,-98,71.0,-98,-98,-98,-98,-98,1,189,,All courts on the same case management system
+190,196,145,Georgia,State,-98,213,-98,,-98,-98,159.0,-98,-98,-98,-98,-98,1,190,,All courts on the same case management system
+191,197,147,Guam,Superior,-98,7,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,1,191,,All courts on the same case management system
+192,198,148,Hawai'i,Circuit,-98,30,-98,,-98,-98,4.0,-98,-98,-98,-98,-98,0,192,,Not all courts on the same case management system
+193,199,149,Hawai'i,District,-98,37,-98,,-98,-98,4.0,-98,-98,-98,-98,-98,1,193,,All courts on the same case management system
+194,200,150,Idaho,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,194,,All courts on the same case management system
+195,201,151,Idaho,Magistrates Division,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,195,,All courts on the same case management system
+196,202,152,Illinois,Circuit,-98,934,-98,,-98,-98,24.0,0,0,0,0,0,1,196,,All courts on the same case management system
+197,203,153,Indiana,Circuit,-98,116,-98,,-98,-98,116.0,-98,-98,-98,-98,-98,1,197,,All courts on the same case management system
+198,204,155,Indiana,Probate,-98,43,-98,,-98,-98,43.0,-98,-98,-98,-98,-98,1,198,,All courts on the same case management system
+199,205,157,Indiana,Superior,-98,1,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,1,199,,All courts on the same case management system
+200,206,154,Indiana,City,-98,9,-98,,-98,-98,9.0,-98,-98,-98,-98,-98,1,200,,All courts on the same case management system
+201,207,156,Indiana,Small Claims of Marion County,-98,200,-98,,-98,-98,200.0,-98,-98,-98,-98,-98,1,201,,All courts on the same case management system
+202,208,158,Indiana,Town,-98,22,-98,,-98,-98,22.0,-98,-98,-98,-98,-98,1,202,,All courts on the same case management system
+203,209,159,Iowa,District,-98,337,-98,,-98,-98,99.0,1,1,1,1,1,1,203,,All courts on the same case management system
+204,210,160,Kansas,District,-98,245,-98,,-98,-98,105.0,-98,-98,-98,-98,-98,1,204,,All courts on the same case management system
+205,211,161,Kansas,Municipal,-98,231,-98,,-98,-98,394.0,-98,-98,-98,-98,-98,0,205,,Not all courts on the same case management system
+206,212,162,Kentucky,Circuit,-98,95,-98,,-98,-98,120.0,0,0,0,0,0,0,206,,Not all courts on the same case management system
+207,213,164,Kentucky,Family,-98,116,-98,,-98,-98,120.0,0,0,0,0,0,0,207,,Not all courts on the same case management system
+208,214,163,Kentucky,District,-98,52,-98,,-98,-98,71.0,0,0,0,0,0,0,208,,Not all courts on the same case management system
+209,215,166,Louisiana,District,-98,73,-98,,-98,-98,52.0,0,0,0,0,0,0,209,,Not all courts on the same case management system
+210,216,167,Louisiana,Family,-98,218,-98,,-98,-98,43.0,0,0,0,0,0,0,210,,Not all courts on the same case management system
+211,217,169,Louisiana,Juvenile,-98,4,-98,,-98,-98,1.0,0,0,0,0,0,0,211,,Not all courts on the same case management system
+212,218,165,Louisiana,City & Parish,-98,387,-98,,-98,-98,387.0,0,0,0,0,0,0,212,,Not all courts on the same case management system
+213,219,168,Louisiana,Justice of the Peace,-98,13,-98,,-98,-98,4.0,0,0,0,0,0,0,213,,Not all courts on the same case management system
+214,220,170,Louisiana,Mayor's,-98,238,-98,,-98,-98,239.0,0,0,0,0,0,0,214,,Not all courts on the same case management system
+215,221,171,Maine,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,215,,Not all courts on the same case management system
+216,222,173,Maine,Superior,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,216,,Not all courts on the same case management system
+217,223,172,Maine,Probate,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,217,,All courts on the same case management system
+218,224,174,Maryland,Circuit,-98,162,-98,,-98,-98,24.0,0,0,0,0,0,1,218,,All courts on the same case management system
+219,225,175,Maryland,District,-98,116,-98,,-98,-98,1.0,0,0,0,0,0,1,219,,All courts on the same case management system
+220,226,176,Maryland,Orphans,-98,66,-98,,-98,-98,24.0,0,0,0,0,0,1,220,,All courts on the same case management system
+221,227,183,Massachusetts,Superior Court Dept,-98,28,-98,,-98,-98,8.0,0,0,0,0,0,1,221,,All courts on the same case management system
+222,228,177,Massachusetts,Boston Municipal Court Dept,-98,136,-98,,-98,-98,62.0,0,0,0,0,0,1,222,,All courts on the same case management system
+223,229,178,Massachusetts,District Court Dept,-98,10,-98,,-98,-98,5.0,0,0,0,0,0,1,223,,All courts on the same case management system
+224,230,179,Massachusetts,Housing Court Dept,-98,40,-98,,-98,-98,11.0,0,0,0,0,0,0,224,,Not all courts on the same case management system
+225,231,180,Massachusetts,Juvenille Court Dept,-98,6,-98,,-98,-98,11.0,-98,-98,-98,-98,-98,0,225,,Not all courts on the same case management system
+226,232,181,Massachusetts,Land Court Dept,-98,47,-98,,-98,-98,14.0,0,0,0,0,0,0,226,,Not all courts on the same case management system
+227,233,182,Massachusetts,Probate & Family Court Dept,-98,77,-98,,-98,-98,14.0,0,0,0,0,0,0,227,,Not all courts on the same case management system
+228,234,184,Michigan,Circuit,-98,214,-98,,-98,-98,57.0,0,0,0,0,0,0,228,,Not all courts on the same case management system
+229,235,185,Michigan,Court of Claims,-98,4,-98,,-98,-98,1.0,0,0,0,0,0,1,229,,All courts on the same case management system
+230,236,186,Michigan,District,-98,239,-98,,-98,-98,105.0,0,0,0,0,0,0,230,,Not all courts on the same case management system
+231,237,187,Michigan,Municipal,-98,4,-98,,-98,-98,4.0,0,0,0,0,0,0,231,,Not all courts on the same case management system
+232,238,188,Michigan,Probate,-98,103,-98,,-98,-98,78.0,0,0,0,0,0,0,232,,Not all courts on the same case management system
+233,239,189,Minnesota,District,-98,290,-98,,-98,-98,10.0,1,1,1,1,1,0,233,,Not all courts on the same case management system
+234,240,191,Mississippi,Circuit,-98,52,-98,,-98,-98,20.0,-98,-98,-98,-98,-98,0,234,,Not all courts on the same case management system
+235,241,190,Mississippi,Chancery,-98,57,-98,,-98,-98,22.0,-98,-98,-98,-98,-98,1,235,,All courts on the same case management system
+236,242,192,Mississippi,County,-98,30,-98,,-98,-98,21.0,-98,-98,-98,-98,-98,1,236,,All courts on the same case management system
+237,243,193,Mississippi,Justice,-98,197,-98,,-98,-98,82.0,-98,-98,-98,-98,-98,0,237,,Not all courts on the same case management system
+238,244,194,Mississippi,Municipal,-98,226,-98,,-98,-98,226.0,-98,-98,-98,-98,-98,0,238,,Not all courts on the same case management system
+239,245,195,Missouri,Circuit,-98,346,-98,,-98,-98,46.0,1,1,1,1,1,0,239,,Not all courts on the same case management system
+240,246,195,Missouri,Municipal,-98,282,-98,,-98,-98,444.0,1,1,1,1,1,0,240,,Not all courts on the same case management system
+241,247,198,Montana,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,241,,Not all courts on the same case management system
+242,248,201,Montana,Water,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,242,,Not all courts on the same case management system
+243,249,202,Montana,Worker's Compensation,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,243,,Not all courts on the same case management system
+244,250,197,Montana,City,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,244,,Not all courts on the same case management system
+245,251,199,Montana,Justice's Court,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,245,,Not all courts on the same case management system
+246,252,200,Montana,Municipal,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,246,,Not all courts on the same case management system
+247,253,204,Nebraska,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,247,,All courts on the same case management system
+248,254,203,Nebraska,County,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,248,,All courts on the same case management system
+249,255,205,Nebraska,Separate Juvenile,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,249,,All courts on the same case management system
+250,256,206,Nebraska,Worker's Compensation,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,250,,All courts on the same case management system
+251,257,207,Nevada,District,-98,82,-98,,-98,-98,17.0,0,0,0,0,0,1,251,,All courts on the same case management system
+252,258,208,Nevada,Justice,-98,66,-98,,-98,-98,41.0,0,0,0,0,0,1,252,,All courts on the same case management system
+253,259,209,Nevada,Municipal,-98,30,-98,,-98,-98,17.0,0,0,0,0,0,1,253,,All courts on the same case management system
+254,260,211,New Hampshire,Superior,-98,32,-98,,-98,-98,10.0,-98,-98,-98,-98,-98,1,254,,All courts on the same case management system
+255,261,210,New Hampshire,Circuit,-98,22,-98,,-98,-98,11.0,-98,-98,-98,-98,-98,1,255,,All courts on the same case management system
+256,262,213,New Jersey,Superior,-98,315,-98,,-98,-98,,1,1,0,0,0,1,256,,All courts on the same case management system
+257,263,212,New Jersey,Municipal,-98,386,-98,,-98,-98,15.0,1,1,0,0,0,1,257,,All courts on the same case management system
+258,264,214,New Jersey,Tax,-98,11,-98,,-98,-98,1.0,1,1,0,0,0,1,258,,All courts on the same case management system
+259,265,216,New Mexico,District,-98,19,-98,,-98,-98,1.0,1,0,1,0,0,1,259,,All courts on the same case management system
+260,266,215,New Mexico,Bernalillo County Metropolitan,-98,94,-98,,-98,-98,33.0,1,0,1,0,0,0,260,,Not all courts on the same case management system
+261,267,217,New Mexico,Magistrate,-98,67,-98,,-98,-98,48.0,1,0,1,0,0,0,261,,Not all courts on the same case management system
+262,268,218,New Mexico,Municipal,-98,83,-98,,-98,-98,81.0,1,0,1,0,0,0,262,,Not all courts on the same case management system
+263,269,219,New Mexico,Probate,-98,33,-98,,-98,-98,33.0,1,0,1,0,0,0,263,,Not all courts on the same case management system
+264,270,222,New York,County,-98,166,-98,,-98,-98,61.0,-98,-98,-98,-98,-98,0,264,,Not all courts on the same case management system
+265,271,227,New York,Supreme,-98,120,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,0,265,,Not all courts on the same case management system
+266,272,220,New York,City,-98,122,-98,,-98,-98,57.0,-98,-98,-98,-98,-98,0,266,,Not all courts on the same case management system
+267,273,221,New York,Civil Ct. of the City of NY,-98,79,-98,,-98,-98,10.0,-98,-98,-98,-98,-98,0,267,,Not all courts on the same case management system
+268,274,223,New York,Court of Claims,-98,102,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,0,268,,Not all courts on the same case management system
+269,275,224,New York,Criminal Ct of the City of NY,-98,53,-98,,-98,-98,2.0,-98,-98,-98,-98,-98,0,269,,Not all courts on the same case management system
+270,276,225,New York,District,-98,147,-98,,-98,-98,58.0,-98,-98,-98,-98,-98,1,270,,All courts on the same case management system
+271,277,226,New York,Family,-98,269,-98,,-98,-98,62.0,-98,-98,-98,-98,-98,1,271,,All courts on the same case management system
+272,278,228,New York,Surrogates,-98,31,-98,,-98,-98,62.0,-98,-98,-98,-98,-98,1,272,,All courts on the same case management system
+273,279,229,New York,Town & Village Justice,-98,-99,-98,,-98,-98,1270.0,-98,-98,-98,-98,-98,1,273,,All courts on the same case management system
+274,280,231,North Carolina,Superior,-98,267,-98,,-98,-98,41.0,0,0,0,0,0,0,274,,Not all courts on the same case management system
+275,281,230,North Carolina,District,-98,104,-98,,-98,-98,50.0,0,0,0,0,0,0,275,,Not all courts on the same case management system
+276,282,232,North Dakota,District,-98,51,-98,,-98,-98,53.0,1,1,1,1,1,0,276,,Not all courts on the same case management system
+277,283,233,North Dakota,Municipal,-98,73,-98,,-98,-98,73.0,1,1,1,1,1,0,277,,Not all courts on the same case management system
+278,285,237,Ohio,Court of Common Pleas,-98,37,-98,,-98,-98,22.0,0,0,0,0,0,0,278,,Not all courts on the same case management system
+279,286,235,Ohio,County,-98,0,-98,,-98,-98,1.0,0,0,0,0,0,0,279,,Not all courts on the same case management system
+280,287,236,Ohio,Court of Claims,-98,394,-98,,-98,-98,88.0,0,0,0,0,0,0,280,,Not all courts on the same case management system
+281,288,238,Ohio,Mayor's,-98,0,-98,,-98,-98,305.0,0,0,0,0,0,0,281,,Not all courts on the same case management system
+282,289,239,Ohio,Municipal,-98,214,-98,,-98,-98,129.0,0,0,0,0,0,0,282,,Not all courts on the same case management system
+283,290,240,Oklahoma,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,0,283,,Not all courts on the same case management system
+284,291,241,Oklahoma,Municipal Court Not of Record,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,284,,All courts on the same case management system
+285,292,242,Oklahoma,Municipal Criminal Court of Record,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,285,,All courts on the same case management system
+286,293,243,Oklahoma,Tax Review,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,286,,All courts on the same case management system
+288,295,245,Oregon,Circuit,-98,172,-98,,-98,-98,36.0,1,1,1,1,1,1,288,,All courts on the same case management system
+289,296,249,Oregon,Tax,-98,-99,-98,,-98,-98,,1,1,1,1,1,1,289,,All courts on the same case management system
+290,297,246,Oregon,County,-98,-99,-98,,-98,-98,,1,1,1,1,1,1,290,,All courts on the same case management system
+291,298,247,Oregon,Justice,-98,-99,-98,,-98,-98,,1,1,1,1,1,1,291,,All courts on the same case management system
+292,299,248,Oregon,Municipal,-98,1,-98,,-98,-98,1.0,1,1,1,1,1,-99,292,,Missing information
+293,300,250,Pennsylvania,Court of Common Pleas,-98,449,-98,,-98,-98,60.0,-98,-98,-98,-98,-98,1,293,,All courts on the same case management system
+294,301,251,Pennsylvania,Magisterial District Judge,-98,554,-98,,-98,-98,544.0,-98,-98,-98,-98,-98,1,294,,All courts on the same case management system
+295,302,252,Pennsylvania,Philadelphia Municipal,-98,25,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,1,295,,All courts on the same case management system
+296,303,253,Puerto Rico,Court of First Instance,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,1,296,,All courts on the same case management system
+297,304,258,Rhode Island,Superior,-98,15,-98,,-98,-98,4.0,-98,-98,-98,-98,-98,1,297,,All courts on the same case management system
+298,305,254,Rhode Island,District,-98,18,-98,,-98,-98,4.0,-98,-98,-98,-98,-98,1,298,,All courts on the same case management system
+299,306,255,Rhode Island,Family,-98,-99,-98,,-98,-98,26.0,-98,-98,-98,-98,-98,1,299,,All courts on the same case management system
+300,307,256,Rhode Island,Municipal,-98,-99,-98,,-98,-98,39.0,-98,-98,-98,-98,-98,1,300,,All courts on the same case management system
+301,308,257,Rhode Island,Probate,-98,25,-98,,-98,-98,4.0,-98,-98,-98,-98,-98,1,301,,All courts on the same case management system
+302,309,259,Rhode Island,Traffic Tribunal,-98,8,-98,,-98,-98,2.0,-98,-98,-98,-98,-98,1,302,,All courts on the same case management system
+303,310,260,Rhode Island,Worker's Compensation,-98,8,-98,,-98,-98,1.0,-98,-98,-98,-98,-98,1,303,,All courts on the same case management system
+304,311,261,South Carolina,Circuit,-98,58,-98,,-98,-98,46.0,1,0,0,0,0,1,304,,All courts on the same case management system
+305,312,262,South Carolina,Family,-98,68,-98,,-98,-98,46.0,1,0,0,0,0,1,305,,All courts on the same case management system
+306,313,263,South Carolina,Magistrate,-98,309,-98,,-98,-98,317.0,1,0,0,0,0,1,306,,All courts on the same case management system
+307,314,264,South Carolina,Municipal,-98,326,-98,,-98,-98,208.0,1,0,0,0,0,0,307,,Not all courts on the same case management system
+308,315,265,South Carolina,Probate,-98,46,-98,,-98,-98,46.0,1,0,0,0,0,0,308,,Not all courts on the same case management system
+309,316,266,South Dakota,Circuit,-98,43,-98,,-98,-98,7.0,1,0,0,0,0,0,309,,Not all courts on the same case management system
+310,317,267,South Dakota,Magistrate,-98,16,-98,,-98,-98,7.0,1,0,0,0,0,0,310,,Not all courts on the same case management system
+311,318,268,Tennessee,Chancery,-98,83,-98,,-98,-98,42.0,-98,-98,-98,-98,-98,0,311,,Not all courts on the same case management system
+312,319,269,Tennessee,Circuit,-98,35,-98,,-98,-98,86.0,-98,-98,-98,-98,-98,0,312,,Not all courts on the same case management system
+313,320,270,Tennessee,Criminal,-98,33,-98,,-98,-98,34.0,-98,-98,-98,-98,-98,0,313,,Not all courts on the same case management system
+314,321,274,Tennessee,Probate,-98,154,-98,,-98,-98,156.0,-98,-98,-98,-98,-98,0,314,,Not all courts on the same case management system
+315,322,271,Tennessee,General Sessions,-98,17,-98,,-98,-98,18.0,-98,-98,-98,-98,-98,0,315,,Not all courts on the same case management system
+316,323,272,Tennessee,Juvenile,-98,170,-98,,-98,-98,241.0,-98,-98,-98,-98,-98,0,316,,Not all courts on the same case management system
+317,324,273,Tennessee,Municipal,-98,2,-98,,-98,-98,2.0,-98,-98,-98,-98,-98,0,317,,Not all courts on the same case management system
+318,325,277,Texas,District,-98,254,-98,,-98,-98,254.0,1,0,1,0,0,0,318,,Not all courts on the same case management system
+319,326,276,Texas,County Court at Law,-98,243,-98,,-98,-98,243.0,1,0,1,0,0,0,319,,Not all courts on the same case management system
+320,327,278,Texas,Justice,-98,465,-98,,-98,-98,465.0,1,0,1,0,0,1,320,,All courts on the same case management system
+321,328,279,Texas,Municipal,-98,806,-98,,-98,-98,806.0,1,0,1,0,0,1,321,,All courts on the same case management system
+322,329,280,Texas,Statutory Probate,-98,1294,-98,,-98,-98,933.0,1,0,1,0,0,1,322,,All courts on the same case management system
+323,330,275,Texas,Constitutional County,-98,18,-98,,-98,-98,18.0,1,0,1,0,0,1,323,,All courts on the same case management system
+324,331,281,Utah,District,-98,72,-98,,-98,-98,36.0,0,0,0,0,0,0,324,,Not all courts on the same case management system
+325,332,282,Utah,Justice,-98,92,-98,,-98,-98,120.0,0,0,0,0,0,0,325,,Not all courts on the same case management system
+326,333,283,Utah,Juvenile,-98,29,-98,,-98,-98,29.0,0,0,0,0,0,1,326,,All courts on the same case management system
+327,334,284,Vermont,Superior,-98,34,-98,,-98,-98,15.0,0,0,0,0,0,1,327,,All courts on the same case management system
+328,336,286,Virginia,Circuit,-98,157,-98,,-98,-98,31.0,-98,-98,-98,-98,-98,1,328,,All courts on the same case management system
+329,337,287,Virginia,District,-98,239,-98,,-98,-98,32.0,-98,-98,-98,-98,-98,0,329,,Not all courts on the same case management system
+330,338,290,Washington,Superior,-98,118,-98,,-98,-98,44.0,-98,-98,-98,-98,-98,0,330,,Not all courts on the same case management system
+331,339,288,Washington,District,-98,93,-98,,-98,-98,92.0,-98,-98,-98,-98,-98,0,331,,Not all courts on the same case management system
+332,340,289,Washington,Municipal,-98,192,-98,,-98,-98,39.0,-98,-98,-98,-98,-98,0,332,,Not all courts on the same case management system
+333,341,291,West Virginia,Circuit,-98,70,-98,,-98,-98,31.0,1,1,1,1,0,1,333,,All courts on the same case management system
+334,342,292,West Virginia,Family,-98,45,-98,,-98,-98,27.0,1,1,1,1,0,1,334,,All courts on the same case management system
+335,343,293,West Virginia,Magistrate,-98,158,-98,,-98,-98,55.0,1,1,1,1,0,0,335,,Not all courts on the same case management system
+336,344,294,West Virginia,Municipal,-98,-99,-98,,-98,-98,,1,1,1,1,0,0,336,,Not all courts on the same case management system
+337,345,295,Wisconsin,Circuit,-98,249,-98,,-98,-98,69.0,0,0,0,0,0,0,337,,Not all courts on the same case management system
+338,346,296,Wisconsin,Municipal,-98,254,-98,,-98,-98,252.0,0,0,0,0,0,-99,338,,Missing information
+339,347,298,Wyoming,District,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,-99,339,,Missing information
+340,348,297,Wyoming,Circuit,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,-99,340,,Missing information
+341,349,299,Wyoming,Municipal,-98,-99,-98,,-98,-98,,-98,-98,-98,-98,-98,-99,341,,Missing information
