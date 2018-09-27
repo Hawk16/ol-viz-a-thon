@@ -164,9 +164,6 @@ def update():
 #                        HTML Headers                            #
 # -------------------------------------------------------------- #
 
-# HTML Header for Dashboard
-description = Div(text=open('html/dashboard_html_header.html').read(), width=400)
-
 # HTML Headers for DataTables
 data_table1_header = Div(text='''<h2 align='left'>Overview</h2>''')
 data_table2_header = Div(text='''<h2 align='left'>Courts, Jurisdiction, Funding, Admin Appeals</h2>''')
@@ -537,8 +534,6 @@ controls5 = widgetbox(
     state_select5,
     download_button_table5)
     
-description = widgetbox(description)
-    
 table = widgetbox(data_table)
 table2 = widgetbox(data_table2)
 table3 = widgetbox(data_table3)
@@ -667,7 +662,6 @@ p5.xgrid.grid_line_color = 'white'
 # ------------------------------------------- #
 
 l = layout([
-    [description], 
     [data_table1_header],
     [controls, table],
     [charts_header],

@@ -1,31 +1,51 @@
 {% extends base %}
 
 {% block postamble %}
-  <style>
-    h1 {
-      margin: 2em 0 0 0;
-      color: #2e484c;
-      font-family: 'Julius Sans One', sans-serif;
-      font-size: 1.4em;
-      text-transform: uppercase;
-    }
-    p {
-      font: "Libre Baskerville", sans-serif;
-      text-align: justify;
-      text-justify: inter-word;
-    }
-    
-  </style>
 {% endblock %}
 
 {% block contents %}
-  <div>
-    <h1>SAMPLE HTML added by index.html</h1>
-    <p> This demo uses a <code>CustomJS</code> callback to export <code>DataTable</code> contents to CSV.
-    <p><b>NOTE</b>: On Safari the CSV will open in a new tab, rather than downloading.</p>
-    <ul style="list-style-type:circle">
-      <li>Click the "Download" button to export data to a CSV file.</li>
-    </ul>
-  </div>
+<style>
+  h1 {
+      margin: 1em 0 0 0;
+      color: #263178;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 1.8em;
+  }
+  a:link {
+      font-weight: bold;
+      text-decoration: none;
+      color: #0d8ba1;
+  }
+  a:visited {
+      font-weight: bold;
+      text-decoration: none;
+      color: #1a5952;
+  }
+  a:hover, a:focus, a:active {
+      text-decoration: underline;
+      color: #9685BA;
+  }
+  p {
+      font: "Libre Baskerville", sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+      width: 80%;
+      max-width: 800;
+  }
+  </style>
+  
+  <img src='https://www.ncsc.org/~/media/Images/Publications/Seals/J-NCSC_LogoWeb_534_871.ashx' width='200' height='125'></img>
+  
+  <h1 style="padding-left: 12px; padding-right: 12px;">An Interactive Explorer for State Court Data.</h1>
+  
+  <p style="padding-left: 12px; padding-right: 12px;">
+  Interact with the widgets on the left to query a subset of state court data.
+  <br> 
+  <i>Information courtesy of <a href='http://www.courtstatistics.org'>National Center for State Courts</a>
+  </i>
+  </p>
+  <br><br>
+  <div style="padding-left: 12px; padding-right: 12px;">
   {{ super() }}
+  </div>
 {% endblock %}
