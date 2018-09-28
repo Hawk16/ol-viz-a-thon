@@ -395,6 +395,9 @@ class InputData():
         """Create DataFrame `all_states_display`."""
         self.all_states_display = self.us_state.copy()
         self.all_states_display['NeighboringStates'] = self.all_states_display.apply(self.get_states_and_neighbors_df, axis=1)
+        self.all_states_display['NeighboringStates'] = self.all_states_display['NeighboringStates'].astype('str')
+        self.all_states_display['NeighboringStates'] = self.all_states_display['NeighboringStates'].str.replace('[', '')
+        self.all_states_display['NeighboringStates'] = self.all_states_display['NeighboringStates'].str.replace(']', '')
         self.all_states_display['PopulationDensity'] = self.all_states_display.apply(self.get_population_density, axis=1)
         self.all_states_display['PopulationCategory'] = self.all_states_display.apply(self.get_population_category, axis=1)
         self.all_states_display['Rural'] = self.all_states_display.apply(self.get_rural_description, axis=1)

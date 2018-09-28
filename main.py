@@ -38,7 +38,8 @@ display_cols = [
     'DeathPen', 'CaseloadSize', 
     'CaseloadLow', 'CaseloadHigh',
     'RuralLow', 'RuralHigh',
-    'PopulationLow', 'PopulationHigh']
+    'PopulationLow', 'PopulationHigh', 
+    'NeighboringStates']
 df = pd.read_csv('viz_a_thon_data_sources/all_states_display.csv')
 all_states_display = df.copy()
 df.rename(columns={
@@ -92,6 +93,7 @@ def update():
         'DeathPen': current.DeathPen,
         'CaseloadSize': current.CaseloadSize,
         'CaseloadLow': current.CaseloadLow,
+        'NeighboringStates': current.NeighboringStates,
         'CaseloadHigh': current.CaseloadHigh}
     
     if state_select.value != 'All':
@@ -112,6 +114,7 @@ def update():
         'CourtLevelDescription': current2.CourtLevelDescription,
         'FundingDescription': current2.FundingDescription,
         'AppealFromAdminAgency': current2.AppealFromAdminAgency,
+        'CSPAggID': current2.CSPAggID,
         'Notes': current2.Notes,
         'Link': current2.Link}
     
@@ -380,7 +383,8 @@ columns = [
         TableColumn(field='CaseloadSize', title='CaseloadSize'),
         TableColumn(field='TrialStructure', title='TrialStructure'),
         TableColumn(field='CrimProc', title='CrimProc'),
-        TableColumn(field='DeathPen', title='DeathPen')]
+        TableColumn(field='DeathPen', title='DeathPen'),
+        TableColumn(field='NeighboringStates', title='Neighbors')]
 data_table = DataTable(
     source=source, 
     columns=columns, 
@@ -397,6 +401,7 @@ columns2 = [
     TableColumn(field='FundingDescription', title='Funding'),
     TableColumn(field='AppealFromAdminAgency', title='AppealFromAdminAgency'),
     TableColumn(field='Notes', title='Notes'),
+    TableColumn(field='CSPAggID', title='CSPAggID'),
     TableColumn(field='Link', title='URL')]
 data_table2 = DataTable(
     source=source2, 
