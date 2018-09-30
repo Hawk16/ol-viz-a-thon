@@ -263,19 +263,11 @@ def update():
 # -------------------------------------------------------------- #
 
 # HTML Headers for DataTables
-dashboard_header = Div(text='''
-<img src='https://www.ncsc.org/~/media/Images/Publications/Seals/J-NCSC_LogoWeb_534_871.ashx' width='200' height='125'></img>
-  <h1 id='page_top' style="padding-left: 12px; padding-right: 12px;">An Interactive Explorer for State Court Data.</h1>
-    <p style="padding-left: 12px; padding-right: 12px;">
-      <i>Information courtesy of <br><a href='http://www.courtstatistics.org'>National Center for State Courts</a>
-      </i>
-    </p>
-    <br><br>
-''')
 table_of_contents = Div(text="""
 <div>
+<p><a id=page_top></a></p>
 <p>
-  <h2 style="padding-left: 12px; padding-right: 12px;">Contents</h2></p>
+  <!--h2 style="padding-left: 12px; padding-right: 12px;">Contents</h2></p-->
   <ul>
     <li><a href='#States Overview'>States Overview Table</a></li>
     <li><a href='#Courts Overview'>Courts Overview Table</a></li>
@@ -845,7 +837,7 @@ p4 = figure(
     plot_width=350, 
     title='Caseload Size', 
     tools=tools, 
-    toolbar_location='above', 
+    toolbar_location='above',
     tooltips=TOOLTIPS)
 p4.vbar(
     x='x',
@@ -898,7 +890,6 @@ p5.xaxis.axis_label_standoff = 30
 # ------------------------------------------- #
 
 l = layout([
-    [dashboard_header],
     [table_of_contents],
     [row([p1, p3, p4, p5])],
     [data_table1_header2],
