@@ -35,7 +35,7 @@ print('Input data generated.')
 # All States (Overview)
 display_cols = [
     'State', 'PopDensity', 'PopulationCategory', 'Rural', 
-    'TrialStructure', 'CrimProc', 
+    'TrialStructure', 'CrimProc', 'AppCrimStructure',
     'DeathPen', 'CaseloadSize', 
     'CaseloadLow', 'CaseloadHigh',
     'RuralLow', 'RuralHigh',
@@ -103,6 +103,7 @@ def reset_overview_table(event):
         'Rural': current.Rural,
         'TrialStructure': current.TrialStructure,
         'CrimProc': current.CrimProc,
+        'AppCrimStructure': current.AppCrimStructure,
         'DeathPen': current.DeathPen,
         'CaseloadSize': current.CaseloadSize,
         'CaseloadLow': current.CaseloadLow,
@@ -170,6 +171,10 @@ def update():
         current = current[current['TrialStructure'] == trial_struct.value]
     if crim_trial_proc.value != 'Select value ...':
         current = current[current['CrimProc'] == crim_trial_proc.value]
+    if neighbors_select.value != 'Select value ...':
+        current = current[current['State'] == neighbors_select.value]
+    if app_crim_struct.value != 'Select value ...':
+        current = current[current['AppCrimStructure'] == app_crim_struct.value]
     source.data = {
         'State': current.State,
         'PopDensity': current.PopDensity,
@@ -177,6 +182,7 @@ def update():
         'Rural': current.Rural,
         'TrialStructure': current.TrialStructure,
         'CrimProc': current.CrimProc,
+        'AppCrimStructure': current.AppCrimStructure,
         'DeathPen': current.DeathPen,
         'CaseloadSize': current.CaseloadSize,
         'CaseloadLow': current.CaseloadLow,
@@ -274,10 +280,11 @@ table_of_contents = Div(text="""
     <li><a href='#Court Details'>Court Details Table</a></li>
     <li><a href='#Court Cases'>Court Cases Table</a></li>
     <li><a href='#Court Hierarchies'>Court Hierarchies Table</a></li>
-    <li><a href='#Case Flowcharts'>Case Flowcharts</a></li>
+    <li><a href='#Case Flowcharts'>Court Flowcharts</a></li>
   </ul>
 </div>
 <br>
+<p><em>Mouse over the bars below to see which states fall into each category<em></p>
 """)
 top_of_page_link = Div(text="""<a href='#page_top' align='left'>Top of Page</a>""")
 top_of_page_link2 = Div(text="""<a href='#page_top' align='left'>Top of Page</a>""")
@@ -293,7 +300,7 @@ data_table3_header = Div(text="""<h1 id='Court Details' align='left'>Court Detai
 data_table4_header = Div(text="""<h1 id='Court Cases' align='left'>Court Cases</h1>""")
 data_table5_header = Div(text="""<h1 id='Court Hierarchies' align='left'>Court Hierarchies</h1>""")
 flowcharts_header = Div(text="""
-<h1 id='Case Flowcharts' align='left'>Case Flowcharts</h1>
+<h1 id='Case Flowcharts' align='left'>Court Flowcharts</h1>
 <p><b>Select a state then click on a particular court to highlight the appeals process.<b></p>
 """)
 charts_header = Div(text='''<h2 align='left'>Overview Charts</h1>''')
@@ -353,6 +360,15 @@ rural_prct = Slider(
     step=1)
 rural_prct.on_change('value', lambda attr, old, new: update())
 
+# Appellate Criminal Structure Select
+app_crim_struct = df['AppCrimStructure'].unique().tolist()
+app_crim_struct.append('Select value ...')
+app_crim_struct = Select(
+    title='Appellate Criminal Structure', 
+    options=app_crim_struct, 
+    value='Select value ...')
+app_crim_struct.on_change('value', lambda attr, old, new: update())
+
 # Death Penalty Select
 dp = df['DeathPen'].unique().tolist()
 dp.remove('Missing information')
@@ -389,6 +405,15 @@ crim_trial_proc = Select(
     options=crim_trial_proc, 
     value='Select value ...')
 crim_trial_proc.on_change('value', lambda attr, old, new: update())
+
+# Neighbors Select
+neighbors_select = df['State'].unique().tolist()
+neighbors_select.append('Select value ...')
+neighbors_select = Select(
+    title='Neighboring States', 
+    options=neighbors_select, 
+    value='Select value ...')
+neighbors_select.on_change('value', lambda attr, old, new: update())
 
 # Download button
 download_button_table1 = Button(label="Export as CSV", button_type="success")
@@ -443,7 +468,7 @@ admin_appeal_select.on_change('value', lambda attr, old, new: update())
 court_desc_select = df2['CourtLevelDescription'].unique().tolist()
 court_desc_select.append('Select value ...')
 court_desc_select = Select(
-    title='Jurisdiction', 
+    title='Court Level', 
     options=court_desc_select, 
     value='Select value ...')
 court_desc_select.on_change('value', lambda attr, old, new: update())
@@ -580,13 +605,14 @@ columns = [
         TableColumn(field='CaseloadSize', title='Caseload Size'),
         TableColumn(field='TrialStructure', title='Trial Structure'),
         TableColumn(field='CrimProc', title='Criminal Procedure'),
+        TableColumn(field='AppCrimStructure', title='Appellate Criminal Structure'),
         TableColumn(field='DeathPen', title='Death Penalty'),
-        TableColumn(field='NeighboringStates', title='Neighbors')]
+        TableColumn(field='NeighboringStates', title='Neighboring States')]
 data_table = DataTable(
     source=source, 
     columns=columns, 
     width=1100, 
-    height=300,
+    height=420,
     fit_columns=True,
     editable=True, selectable=True)
 
@@ -594,7 +620,7 @@ data_table = DataTable(
 columns2 = [
     TableColumn(field='State', title='State'),
     TableColumn(field='CourtName', title='Court Name'),
-    TableColumn(field='CourtLevelDescription', title='Jurisdiction'),
+    TableColumn(field='CourtLevelDescription', title='Court Level'),
     TableColumn(field='FundingDescription', title='Funding'),
     TableColumn(field='AppealFromAdminAgency', title='Appeal from Admin. Agency'),
     TableColumn(field='Notes', title='Notes'),
@@ -604,7 +630,7 @@ data_table2 = DataTable(
     source=source2, 
     columns=columns2, 
     width=1100, 
-    height=300, 
+    height=350, 
     fit_columns=True,
     editable=True, 
     selectable=True)
@@ -679,7 +705,9 @@ controls = widgetbox(
     caseload_size,  
     trial_struct,
     crim_trial_proc,
-    death_penalty_select)
+    app_crim_struct,
+    death_penalty_select,
+    neighbors_select)
 export_button1 = widgetbox(download_button_table1)
 reset_button1 = widgetbox(reset_button_table1)
 
