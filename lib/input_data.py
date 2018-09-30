@@ -265,7 +265,7 @@ class InputData():
         elif row['CaseloadSize'] == '3.1 Million-6 Million':
             return 6000000
         elif row['CaseloadSize'] == 'Over 6 Million':
-            return 10000000 # <<< Arbitrary value
+            return 10000000
 
     def add_state_name(self, row):
         return self.all_states_display[
@@ -384,10 +384,10 @@ class InputData():
             self.names_of_courts_by_state['NumberPanels'].str.replace('-Jan', '')
         self.names_of_courts_by_state['NumberPanels'] = \
             self.names_of_courts_by_state['NumberPanels'].str.replace('-100', '')
-        self.names_of_courts_by_state['NumberOfIndividualCourts'] = \
-            self.names_of_courts_by_state.apply(
-                self.replace_neg_98_neg_99_with_nan, 
-                args=('NumberOfIndividualCourts',), axis=1)
+        # self.names_of_courts_by_state['NumberOfIndividualCourts'] = \
+        #     self.names_of_courts_by_state.apply(
+        #         self.replace_neg_98_neg_99_with_nan, 
+        #         args=('NumberOfIndividualCourts',), axis=1)
         self.names_of_courts_by_state.to_csv(
             'viz_a_thon_data_sources/names_of_courts_by_state.csv', index=False)
 
@@ -442,6 +442,10 @@ class InputData():
         self.us_states_and_courts['AppealFromAdminAgency'] = self.us_states_and_courts.apply(
             self.format_bools_for_bokeh, axis=1)
         self.us_states_and_courts['Notes'] = self.us_states_and_courts['Notes'].str.replace('-99', '')
+        self.us_states_and_courts.fillna('', inplace=True)
+        # self.us_states_and_courts['URL'] = self.us_states_and_courts.apply(
+        #     self.replace_neg_98_neg_99_with_nan, args=('Link',), axis=1)
+        # self.us_states_and_courts['Link'] = self.us_states_and_courts['Link'].str.replace('-99', '')
         self.us_states_and_courts.to_csv('viz_a_thon_data_sources/us_states_and_courts.csv', index=False)
 
     def create_court_hierarchy_df(self):
@@ -452,6 +456,7 @@ class InputData():
             self.add_child_court, axis=1)
         self.court_hierarchy['ParentCourtName'] = self.court_hierarchy.apply(
             self.add_parent_court, axis=1)
+        self.court_hierarchy.drop_duplicates(inplace=True)
         self.court_hierarchy.to_csv(
             'viz_a_thon_data_sources/court_hierarchy.csv', index=False)
 
